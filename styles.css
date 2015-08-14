@@ -91,12 +91,25 @@ body {
 }
 
 
-/*.content-primary > div {
-	overflow: hidden;
+.content-primary > div {
+	/*overflow: hidden;*/
 }
 
 
 
-.p1 {
-	margin-left: 20px;
+/*.p1 {
+	float: left;
+	width: 100px;
 }*/
+
+.numbercircle {
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+.number {
+	border: 1px solid #fff;
+	border-radius: 10%;
+	padding: 10px;
+}
+
