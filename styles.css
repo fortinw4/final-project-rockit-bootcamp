@@ -86,7 +86,7 @@ body {
 	width: 20%;
 }
 
-.submit, .region-select-secondary, .region-select-primary {
+.name, .email, .zip, .submit, .region-select-secondary, .region-select-primary {
 	color: #000;
 }
 
@@ -104,12 +104,18 @@ body {
 
 .numbercircle {
 	margin-left: 200px;
-	margin-top: 100px;
+	margin-top: 135px;
+}
+
+.numbercircle p {
+	display: inline;
+	margin: 10px;
 }
 
 .number {
 	border: 1px solid #fff;
 	border-radius: 10%;
 	padding: 10px;
+	margin-left: 10px;
 }
 
