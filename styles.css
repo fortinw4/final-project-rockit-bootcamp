@@ -1,0 +1,67 @@
+*, *::before, *::after {
+	box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+body {
+	/*background-color: brown;*/
+	/*background: url("images/DSC_0026.png");*/
+	font-family: "Helvetica", "Arial";
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.page {
+	overflow: hidden;
+}
+
+.gallery-primary {
+	background-color: brown;
+	min-height: 1400px;
+	width: 60%;
+	float: left;
+}
+
+.columns-3 .gallery-primary {
+	width: 33%;
+}
+
+.content-primary {
+	background-color: green;
+	width: 40%;
+	min-height: 1400px;
+	float: left;
+}
+
+.columns-3 .content-primary {
+	width: 33%;
+}
+
+.gallery-secondary {
+	background-color: navy;
+	min-height: 1400px;
+}
+
+.tagline {
+	position: fixed;
+	margin: 100px 0 0 728px;*/
+}
+
+.tagline span {
+	color: lime;
+}
+
+
+
+/*components*/
+
+.header-primary > nav {
+	margin: 20px 0 0 5px;
+}
+
+.header-primary > nav a {
+	text-decoration: none;
+	margin: 20px 0 0 20px;
+}
+
