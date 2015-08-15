@@ -16,6 +16,17 @@ body {
 	overflow: hidden;
 }
 
+.header-primary {
+	background-color: black;
+	position: fixed;
+}
+
+.header-primary > nav a {
+	text-decoration: none;
+	margin: 20px 0 0 20px;
+}
+
+
 .gallery-primary {
 	background-color: brown;
 	min-height: 1400px;
@@ -41,13 +52,14 @@ body {
 .gallery-secondary {
 	background-color: navy;
 	min-height: 1400px;
+	float: left;
+	width: 34%;
 }
 
 .tagline {
 	position: fixed;
-	margin-left: 53.9%;
-	margin-top: 10%;
-	z-index: 3;
+	margin-left: 53.5%;
+	margin-top: 13.5%;
 }
 
 .tagline span {
@@ -55,19 +67,28 @@ body {
 }
 
 
+
+/*.tagline1 {
+	margin-left: 81.5%;
+	margin-top: 16.5%;
+}
+
+.tagline2 {
+	margin-right: 1%;
+	margin-top: 11.9%;
+}*/
+
 /*components*/
 
-.header-primary > nav {
-	margin: 20px 0 0 5px;
+/*.header-primary > nav {
+	margin: 15% 0 0 5%;
 }
+*/
 
-.header-primary > nav a {
-	text-decoration: none;
-	margin: 20px 0 0 20px;
-}
+
 
 .content-primary > form {
-	margin-top: 40%;
+	margin-top: 60%;
 }
 
 .form-row {
@@ -98,13 +119,10 @@ body {
 
 
 
-/*.p1 {
-	float: left;
-	width: 100px;
-}*/
+
 
 .numbercircle {
-	margin-left: 200px;
+	margin-left: 40%;
 	margin-top: 19%;
 }
 
@@ -116,12 +134,31 @@ body {
 .number {
 	border: 1px solid #fff;
 	border-radius: 50%;
-	margin-left: 10px;
+	margin-left: 5%;
 	padding: 5px 13px 5px 13px;
 }
 
 .statement {
-	margin-left: 150px;
-	margin-right: 50px;
-	margin-top: 80px;
+	margin-left: 25%;
+	margin-right: 10%;
+	margin-top: 20%;
+}
+
+/*about page*/
+
+
+.gallery-primary-section {
+	background-color: lightblue;
+	width: 400px;
+	height: 250px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.gallery-secondary-section {
+	background-color: orange;
+	width: 400px;
+	height: 250px;
+	margin-top: 100px;
+	margin-left: 100px;
 }
