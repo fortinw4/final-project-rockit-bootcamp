@@ -28,8 +28,9 @@ body {
 
 
 .gallery-primary {
-	background-color: brown;
-	min-height: 1400px;
+	/*background-color: brown;*/
+	background-image: url("images/greybark1.jpg");
+	min-height: 1000px;
 	width: 60%;
 	float: left;
 }
@@ -40,24 +41,30 @@ body {
 
 .content-primary {
 	background-color: green;
+	
 	width: 40%;
-	min-height: 1400px;
+	min-height: 1000px;
 	float: left;
 }
 
 .columns-3 .content-primary {
 	width: 33%;
+	background-image: url("images/greybark1.jpg");
 }
 
 .gallery-secondary {
-	background-color: navy;
-	min-height: 1400px;
+	/*background-color: navy;*/
+	background-image: url("images/tree-selfie-redhead.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	min-height: 1000px;
 	float: left;
 	width: 34%;
 }
 
 .tagline {
 	position: fixed;
+	backface-visibility: hidden;
 	margin-left: 53.5%;
 	margin-top: 13.5%;
 }
@@ -89,13 +96,19 @@ body {
 
 .content-primary > form {
 	margin-top: 60%;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px dashed grey;
+	border-radius: 10%;
+	margin-left: -75px;
+	margin-right: 20px;
+	padding-bottom: 20px;
 }
 
 .form-row {
 	font-size: 18px;
 /*	width: 50%;*/
 	margin-top: 5%;
-	margin-left: 10%;
+	margin-left: 20%;
 }
 
 .form-row > div:nth-child(1) {
@@ -116,9 +129,6 @@ body {
 .content-primary > div {
 	/*overflow: hidden;*/
 }
-
-
-
 
 
 .numbercircle {
@@ -147,18 +157,37 @@ body {
 /*about page*/
 
 
-.gallery-primary-section {
-	background-color: lightblue;
+.gallery-primary-section1 {
+	background-image: url("images/tree-selfie-random2.jpg");
+	/*background-color: lightblue;*/
 	width: 400px;
 	height: 250px;
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 50px;
+	margin-left: 20%;
+}
+
+.gallery-primary-section2 {
+	background-image: url("images/tree-selfie-will2.jpg");
+	/*background-color: lightblue;*/
+	width: 400px;
+	height: 250px;
+	margin-top: 50px;
+	margin-left: 20%;
+}
+
+.gallery-primary-section3 {
+	background-image: url("images/tree-selfie-tigermountain1a.jpg");
+	/*background-color: lightblue;*/
+	width: 400px;
+	height: 250px;
+	margin-top: 50px;
+	margin-left: 20%;
 }
 
 .gallery-secondary-section {
-	background-color: orange;
+	/*background-color: orange;*/
 	width: 400px;
 	height: 250px;
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 50px;
+	margin-left: 20%;
 }
