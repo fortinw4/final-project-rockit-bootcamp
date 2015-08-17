@@ -34,6 +34,8 @@ body {
 .header-primary {
 	background-color: black;
 	position: fixed;
+	width: 100%;
+	z-index: 2;
 }
 
 .header-primary > nav a {
@@ -59,7 +61,7 @@ body {
 .gallery-primary {
 	/*background-color: brown;*/
 	background-image: url("images/greybark1.jpg");
-	min-height: 1000px;
+	min-height: 1400px;
 	width: 60%;
 	float: left;
 }
@@ -74,19 +76,19 @@ body {
     background-image: url("images/tree-selfie-random2.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    border: 1px solid red;
+    margin-top: 10%;
+    border: 1px solid grey;
+    /*border-radius: 10px;*/
 }
-
-
-
 
 .gallery-primary-section2 {
 	width: 100%;
 	height: 400px;
-	background-image: url("images/tree-selfie-will2.jpg");
+	background-image: url("images/tree-selfie-redhead-sm.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	border: 1px solid red;	
+	margin-top: -13%;
+	/*border: 1px solid red;	*/
 }
 
 .gallery-primary-section3 {
@@ -95,7 +97,8 @@ body {
 	background-image: url("images/tree-selfie-tigermountain1a.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	border: 1px solid red;	
+	margin-top: -13%;
+	/*border: 1px solid red;*/
 }
 
 /************************************************
@@ -105,14 +108,21 @@ body {
 .content-primary {
 	background-color: green;
 	width: 40%;
-	min-height: 1000px;
+	min-height: 1400px;
 	float: left;
 }
 
 .columns-3 .content-primary {
 	width: 33%;
 	background-image: url("images/greybark1.jpg");
-	background-repeat: repeat;
+}
+
+.columns-3 .content-primary h2 {
+	margin: 32% 0 0 0;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid grey;
+	border-radius: 3%;
+	padding-left: 22%;
 }
 
 .numbercircle {
@@ -139,10 +149,10 @@ body {
 }
 
 .content-primary > form {
-	margin-top: 60%;
+	margin-top: 50%;
 	background-color: rgba(0,0,0,0.5);
-	border: 1px dashed grey;
-	border-radius: 10%;
+	border: 1px solid grey;
+	border-radius: 3%;
 	margin-left: 10%;
 	margin-right: 10%;
 	padding-bottom: 20px;
@@ -165,8 +175,14 @@ body {
 	width: 20%;
 }
 
-.name, .email, .zip, .submit, .region-select-secondary, .region-select-primary {
+.name, .email, .zip {
 	color: #000;
+}
+
+
+.submit, .region-select-secondary, .region-select-primary {
+	color: #000;
+	width: 70%;
 }
 
 /************************************************
@@ -174,27 +190,39 @@ body {
 ************************************************/
 
 .gallery-secondary {
-	/*background-color: navy;*/
-	background-image: url("images/tree-selfie-redhead.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	min-height: 1000px;
+	/*background-color: green;*/
+	background-image: url("images/greybark1.jpg");
+	/*background-size: 100%;*/
+	/*background-repeat: no-repeat;*/
+	min-height: 1400px;
 	float: left;
-	background-size: contain;
-	border: 1px solid red;
+	/*background-size: contain;*/
+	/*border: 1px solid red;*/
 	width: 34%;
 }
 
 .gallery-secondary-section {
 	/*background-color: orange;*/
-	width: 400px;
-	height: 250px;
-	margin-top: 50px;
-	margin-left: 20%;
+	/*width: 130%;*/
+	/*border: 5px solid grey;*/
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 35px;
+	height: 0;
+	overflow: hidden;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 10%;
+	z-index: 1;
 }
 
-
-
+.gallery-secondary-section iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 
 
