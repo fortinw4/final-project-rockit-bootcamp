@@ -66,6 +66,10 @@ body {
 	float: left;
 }
 
+.gallery-primary.about {
+	background: none;
+}
+
 .columns-3 .gallery-primary {
 	width: 33%;
 }
@@ -75,6 +79,16 @@ body {
 	height: 20%;
 	margin: 10% 0 -1% 2%;
 	border-radius: 10%;
+}
+
+.gallery-primary-section1.about img {
+	width: 50%;
+	margin: 50% 0 0 15%;
+}
+
+
+.gallery-primary-section1.about h1 {
+	margin: -33% 0 0 85%;
 }
 
 .gallery-primary-section2 img {
@@ -90,7 +104,6 @@ body {
 	margin: 10% 0 -1% 2%;
 	border-radius: 10%;
 }
-
 
 /************************************************
 	Content Panel
@@ -147,7 +160,16 @@ body {
 	border-radius: 10%;
 	margin-left: 3%;
 	margin-right: 5%;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+.content-primary.about {
+	background: none;
+}
+
+.content-primary.about img {
+	margin: 51% 0 0 17%;
+	border-radius: 10%;
 }
 
 .form-row {
@@ -166,7 +188,7 @@ body {
 	width: 20%;
 }
 
-.name, .email, .zip {
+.name, .email, .zip, .city {
 	color: #000;
 }
 
@@ -181,6 +203,10 @@ body {
 	margin-left: 20%;
 }
 
+.contact {
+	margin-top: 55%;
+}
+
 /************************************************
 	Third Panel
 ************************************************/
@@ -191,6 +217,10 @@ body {
 	min-height: 1400px;
 	float: left;
 	width: 34%;
+}
+
+.gallery-secondary.about {
+	background: none;
 }
 
 .gallery-secondary-section {
@@ -213,5 +243,20 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
 
+.gallery-secondary-section.about {
+	margin: 50% 0 0 14%;
+}
+
+.gallery-secondary-section.about h1:nth-child(1) {
+	margin: 8% 0 0 2%;
+}
+
+.gallery-secondary-section.about h1:nth-child(2) {
+	margin: -15% 0 0 29%
+}
+
+.gallery-secondary-section.about span {
+	color: lime;
 }

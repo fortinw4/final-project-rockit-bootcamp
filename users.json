@@ -1,0 +1,41 @@
+{
+	"users":
+	[
+		{
+			"id": 1,
+			"name": "Susan Mirabelle",
+			"city": "Phoenix",
+			"state": "Arizona",
+			"country": "United States",
+			"image": "images/tree-selfie-random2.jpg"
+		},
+
+		{
+			"id": 2,
+			"name": "Nicole Jorgen",
+			"city": "Stavanger",
+			"state": "N/A",
+			"country": "Norway",
+			"image": "images/tree-selfie-redhead-sm.jpg"
+		},
+
+		{
+			"id": 3,
+			"name": "John",
+			"city": "Phoenix",
+			"state": "Arizona",
+			"country": "United States",
+			"image": "images/tree-selfie-tigermountain1a.jpg"
+		},
+
+		{
+			"id": 4,
+			"name": "Bill Burroughs",
+			"city": "Denver",
+			"state": "Colorado",
+			"country": "United States",
+			"image": "images/"
+		}
+
+	]
+}
