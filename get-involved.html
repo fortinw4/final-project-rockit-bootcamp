@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>treeselfie</title>
-	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="get-involved-body">
 	
 
 	<header class="header-primary">
@@ -54,15 +54,23 @@
 				
 				<div class="form-row">
 
-					<div><label for="name"> name</label></div>
+					<div><label for="name"> First Name</label></div>
 						
-					<div><input type="text" name="name" class="name"></div>
+					<div><input type="text" name="first-name" class="first-name" required></div>
 
 				</div>
 
 				<div class="form-row">
 
-					<div><label for="email"> email</label></div>
+					<div><label for="name"> Last Name</label></div>
+						
+					<div><input type="text" name="last-name" class="last-name" required></div>
+
+				</div>
+
+				<div class="form-row">
+
+					<div><label for="email"> Email</label></div>
 						
 					<div><input type="text" name="email" class="email"></div>
 
@@ -70,15 +78,15 @@
 
 				<div class="form-row">
 
-					<div><label for="city"> city</label></div>
+					<div><label for="city"> City</label></div>
 						
-					<div><input type="text" name="city" class="city"></div>
+					<div><input type="text" name="city" class="city" required></div>
 
 				</div>
 
 				<div class="form-row">
 					
-					<div><label for="region-select-secondary"> state</label></div>
+					<div><label for="region-select-secondary"> State</label></div>
 					<select class="region-select-secondary">
 							
 						<option value="N/A">N/A</option>
@@ -140,18 +148,16 @@
 
 				<div class="form-row">
 					
-					<div><label for="zip"> zip</label></div>
-						
+					<div><label for="zip"> Zip</label></div>	
 					<div><input type="text" name="zip" class="zip"></div>
 
 				</div>
 				
 				<div class="form-row">
 
-					<div><label for="country"> country</label></div>
-
-				
-					<select name="country" class="region-select-primary" value="US">
+					<div><label for="country"> Country</label></div>
+					
+					<select name="country" class="region-select-primary" value="US" required>
 						<option selected="selected">United States</option>
 						<option value="AF">Afghanistan</option>
 						<option value="AL">Albania</option>
@@ -438,8 +444,8 @@
 
 	</div>
 
-
-<script src="node_modules/jquery/dist/jquery.js"></script>
-<!-- <script src="index.js"></script> -->
+<script src="bower_components/lodash/lodash.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="index.js"></script>
 </body>
 </html>

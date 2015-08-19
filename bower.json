@@ -1,0 +1,22 @@
+{
+  "name": "final2",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fortinw4/final2",
+  "authors": [
+    "Will Fortin <fortinw4@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1",
+    "normalize.css": "~3.0.3"
+  }
+}

@@ -50,6 +50,10 @@ body {
 	margin-top: 13.5%;
 }
 
+.tagline h1 {
+	background-color: rgba(0,0,0,0.5);
+}
+
 .tagline span {
 	color: lime;
 }
@@ -68,6 +72,7 @@ body {
 
 .gallery-primary.about {
 	background: none;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .columns-3 .gallery-primary {
@@ -84,11 +89,13 @@ body {
 .gallery-primary-section1.about img {
 	width: 50%;
 	margin: 50% 0 0 15%;
+	box-shadow: 10px 10px grey;
 }
 
 
 .gallery-primary-section1.about h1 {
 	margin: -33% 0 0 85%;
+	-webkit-text-stroke: 3px white;
 }
 
 .gallery-primary-section2 img {
@@ -165,11 +172,17 @@ body {
 
 .content-primary.about {
 	background: none;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .content-primary.about img {
 	margin: 51% 0 0 17%;
 	border-radius: 10%;
+	box-shadow: 10px 10px grey;
+}
+
+input {
+	margin-left: 5%;
 }
 
 .form-row {
@@ -184,17 +197,21 @@ body {
 }
 
 .form-row > div:nth-child(2) {
-	margin-left: 20%;
+	margin-left: 35%;
 	width: 20%;
 }
 
-.name, .email, .zip, .city {
+.first-name, .last-name, .email, .zip, .city {
 	color: #000;
 }
+
+
+
 
 .region-select-secondary, .region-select-primary {
 	color: #000;
 	width: 61%;
+	margin-right: 15%;
 }
 
 .submit {
@@ -221,6 +238,7 @@ body {
 
 .gallery-secondary.about {
 	background: none;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .gallery-secondary-section {
@@ -251,12 +269,23 @@ body {
 
 .gallery-secondary-section.about h1:nth-child(1) {
 	margin: 8% 0 0 2%;
+	-webkit-text-stroke: 3px white;
 }
 
 .gallery-secondary-section.about h1:nth-child(2) {
-	margin: -15% 0 0 29%
+	margin: -15% 0 0 29%;
+	background-color: rgba(0,0,0,0.5);
+	padding-left: 12%;
 }
 
 .gallery-secondary-section.about span {
 	color: lime;
+}
+
+.about-body {
+	background-image: url("images/earth-tree.jpg")
+}
+
+.get-involved-body {
+	background-image: url("images/greybark1.jpg");
 }

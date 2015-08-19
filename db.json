@@ -1,1 +1,29 @@
-{}
+{
+  "users": [
+    {
+      "id": 4,
+      "treeId": 10,
+      "firstName": "William",
+      "lastName": "Fortin",
+      "email": "fortinw4@gmail.com",
+      "city": "Lansing",
+      "state": "MI",
+      "zip": 48933,
+      "country": "United States"
+    }
+  ],
+  "treeImages": [
+    {
+      "id": 1,
+      "image": "images/tree-selfie-random2.jpg"
+    },
+    {
+      "id": 2,
+      "image": "images/tree-selfie-redhead-sm.jpg"
+    },
+    {
+      "id": 3,
+      "image": "images/tree-selfie-tigermountain1a.jpg"
+    }
+  ]
+}
