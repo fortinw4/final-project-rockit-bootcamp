@@ -321,34 +321,37 @@ input {
 	background-image: url("images/earth-tree.jpg");
 }
 
-.columns-1 > div {
+.collection-primary {
+	margin-top: 100px;
+}
+
+.columns-1 .user-content {
 	display: flex;
 	height: 300px;
 	padding: 20px;
-	margin: 15% 0 0 0;
+	margin: 30px 0 0 0;
+	background-color: rgba(0,0,0,0.7);
 }
 
 .columns-1 .user-img {
 	flex: 1;
-	background-image: url("images/tree-selfie-random2.jpg");
 	display: inline-block;
 }
 
 .columns-1 .user-info {
 	flex: 1;
-	background-color: rgba(0,0,0,0.7);
+	border: .2em solid white;
 	display: inline-block;
-	margin-left: 2%;
+	margin-left: 20px;
 }
 
 .columns-1 .user-info ul {
-	margin: 20% 0 0 15%;
+	margin: 20px 0 0 50px;
 }
 
 .columns-1 .user-map {
 	flex: 1;
-	background-color: blue;
 	display: inline-block;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 20px;
+	margin-right: 20px;
 }

@@ -22,31 +22,84 @@
 
 		</header>
 
-		<div>
+		<div class="collection-primary">
 			
-			<div class="user-img"></div>
-			<div class="user-info">
+			<div class="user-content">
 				
-				<ul>
-					<li>name: Susan Mirabelle</li>
-					<li>city: Phoenix, Arizona</li>
-					<li>country: United States</li>
-				</ul>
+				<div class="user-img">
+					<img src="images/tree-selfie-random2.jpg" alt="Moon Valley Park">
+				</div>
+				<div class="user-info">
+					
+					<ul>
+						<li>name: Susan Mirabelle</li>
+						<li>city: Phoenix, Arizona</li>
+						<li>country: United States</li>
+					</ul>
+
+				</div>
+				<div class="user-map">
+					
+					
+				</div>
+
 
 			</div>
-			<div class="user-map">
+
+
+
+
+			<div class="user-content">
 				
-				<iframe width="425" height="260" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Moon%20Valley%20Park%2C%20Phoenix%2C%20AZ%2C%20United%20States&key=AIzaSyAeQO4eDesnW41aj1nAaij7nzwW4v63DPA" allowfullscreen></iframe>
+				<div class="user-img">
+					<img src="images/tree-selfie-redhead-sm.jpg" alt="Stavanger, Norway">
+				</div>
+				<div class="user-info">
+					
+					<ul>
+						<li>name: Miranda Stevens</li>
+						<li>city: Stavanger</li>
+						<li>country: Norway</li>
+					</ul>
+
+				</div>
+				<div class="user-map">
+					
+					
+				</div>
+
+
+
+				
 
 			</div>
-
+			
 		</div>
 
 
 
 	</div>
 
+	<script id="template-user-content" type="text/x-handlebars-template">
+		
+		<div class="user-img">
+			<img src="{{image}}" alt="Moon Valley Park">
+		</div>
+		<div class="user-info">
+			
+			<ul>
+				<li>name: {{name}}</li>
+				<li>city: {{city}}, {{state}}</li>
+				<li>country: {{country}}</li>
+			</ul>
 
+		</div>
+		<div class="user-map">
+			
+			
+		</div>
+
+	</script>
 
 	<script id="template-tree" type="text/x-handlebars-template">
 		
