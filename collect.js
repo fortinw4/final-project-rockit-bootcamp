@@ -20,6 +20,18 @@ $(function(){
 					image: treeImage.image
 				})
 
+				$('.gallery-primary-section').append(endResult)
+			})
+		})
+
+	// function renderImage (image, map){
+	// 	return templateImage({
+	// 		image: treeImage.image,
+	// 		map: map
+	// 	})
+	// }
+
+})
 				// var map = new GMaps({
 				//   div: '.gmap',
 				//   lat: 33.043333,
@@ -34,17 +46,3 @@ $(function(){
 				//     alert('You clicked in this marker');
 				//   }
 				// })
-
-
-				$('.gallery-primary-section').append(endResult)
-			})
-		})
-
-	// function renderImage (image, map){
-	// 	return templateImage({
-	// 		image: treeImage.image,
-	// 		map: map
-	// 	})
-	// }
-
-})

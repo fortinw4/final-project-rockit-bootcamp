@@ -5,11 +5,23 @@ $(function(){
 	var usersPath = 'http://localhost:3000/users/'
 	var treePath = 'http://localhost:3000/treeImages/'
 
+	var treeImageCache;
+
+	$.get(treePath)
+		.done(function(treeImages){
+			treeImageCache = treeImages;
+			console.log(treeImageCache);
+		})
+
 	$('form').submit(function(e){
 		e.preventDefault()
+
+		var treeIndex = _.random(0, array.length)
+
 		var values = {
 			id: _.random(1, 10),
-			treeId: _.random(1, 10),
+			treeImagePath: treeImageCache[treeIndex].path,
+			treeImageLat: treeImageCache[treeIndex].lat,
 			firstName: $('.first-name').val(),
 			lastName: $('.last-name').val(),
 			email: $('.email').val(),
@@ -23,7 +35,6 @@ $(function(){
 			id: _.random(1, 10),
 			image: 'images/tree-selfie-will1.jpg'
 		}
-
 
 		$.post(usersPath, values)
 			.done(function(){

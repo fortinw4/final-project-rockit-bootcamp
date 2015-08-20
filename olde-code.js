@@ -18,10 +18,9 @@ $(function(){
 			treeImages.forEach(function(treeImage){
 				// console.log(treeImage.image)
 				var endResult = templateImage({
-					image: treeImage.image,
-					id: treeImage.id
+					image: treeImage.image
 				})
 
-				$('.gallery-primary-section').append(endResult)
+				$('.gallery-primary-section').replace(endResult)
 			})
 		})

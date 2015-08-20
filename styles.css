@@ -77,7 +77,6 @@ body {
 
 .about .gallery-primary {
 	background: none;
-	background-color: rgba(0,0,0,0.5);
 }
 
 .get-involved .gallery-primary {
@@ -136,6 +135,14 @@ body {
 	background-image: url("images/greybark1.jpg");
 }
 
+.columns-3.about .content-primary {
+	background: none;
+}
+
+.get-involved {
+	background-image: url("images/greybark1.jpg");
+}
+
 .columns-3 .content-primary h2 {
     width: 122%;
     margin: 1% 0 0 -45%;
@@ -179,10 +186,6 @@ body {
 	padding-bottom: 5px;
 }
 
-.about .content-primary{
-	background: none;
-	background-color: rgba(0,0,0,0.5);
-}
 
 .about .content-primary img {
 	margin: 51% 0 0 17%;
@@ -239,7 +242,7 @@ input {
 	margin-left: 20%;
 }
 
-.contact {
+.contact form {
 	margin-top: 55%;
 }
 
@@ -256,18 +259,13 @@ input {
 	Third Panel
 ************************************************/
 
-.gallery-secondary {
+.index .gallery-secondary {
 	/*background-color: green;*/
 	background-image: url("images/greybark1.jpg");
 	min-height: 1400px;
 	float: left;
 	width: 34%;
 	margin-top: 1%;
-}
-
-.about .gallery-secondary {
-	background: none;
-	background-color: rgba(0,0,0,0.5);
 }
 
 /*.gallery-secondary-section {
@@ -303,7 +301,6 @@ input {
 
 .about .gallery-secondary-section h1:nth-child(2) {
 	margin: -15% 0 0 29%;
-	background-color: rgba(0,0,0,0.5);
 	padding-left: 12%;
 }
 
@@ -312,13 +309,13 @@ input {
 }
 
 .about-body {
-	background-image: url("images/earth-tree.jpg")
+	background-image: url("images/earth-tree.jpg");
+	background-color: rgba(0,0,0,0.5);
 }
 
-.get-involved-body {
+.collection {
 	background-image: url("images/greybark1.jpg");
 }
-
 .output-area {
 	margin: 30% 0 0 5%;
 }
