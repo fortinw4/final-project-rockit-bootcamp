@@ -100,15 +100,21 @@
   "treeImages": [
     {
       "id": 1,
-      "image": "images/tree-selfie-random2.jpg"
+      "image": "images/tree-selfie-random2.jpg",
+      "lat": 33,
+      "lng": 109
     },
     {
       "id": 2,
-      "image": "images/tree-selfie-redhead-sm.jpg"
+      "image": "images/tree-selfie-redhead-sm.jpg",
+      "lat": 33.4,
+      "lng": 109.3
     },
     {
       "id": 3,
-      "image": "images/tree-selfie-tigermountain1a.jpg"
+      "image": "images/tree-selfie-tigermountain1a.jpg",
+      "lat": 34,
+      "lng": 108.7
     }
   ]
 }

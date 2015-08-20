@@ -71,17 +71,17 @@ body {
 	margin-top: 1%;
 }
 
-.gallery-primary.about {
+.columns-3 .gallery-primary {
+	width: 33%;
+}
+
+.about .gallery-primary {
 	background: none;
 	background-color: rgba(0,0,0,0.5);
 }
 
-.gallery-primary.get-involved {
+.get-involved .gallery-primary {
 	background-image: url("images/tree-bw.png");
-}
-
-.columns-3 .gallery-primary {
-	width: 33%;
 }
 
 .gallery-primary-section {
@@ -99,19 +99,19 @@ body {
 	border-radius: 10%;
 }
 
-.gallery-primary-section.about img {
+.about .gallery-primary-section img {
 	width: 50%;
 	margin: 50% 0 0 15%;
 	box-shadow: 10px 10px grey;
 }
 
 
-.gallery-primary-section.about h1 {
+.about .gallery-primary-section h1 {
 	margin: -33% 0 0 85%;
 	-webkit-text-stroke: 3px white;
 }
 
-.gallery-primary.contact {
+.contact .gallery-primary {
 	background-image: url("images/work-done-sq.jpg");
 	min-height: 1400px;
 	width: 60%;
@@ -179,12 +179,12 @@ body {
 	padding-bottom: 5px;
 }
 
-.content-primary.about {
+.about .content-primary{
 	background: none;
 	background-color: rgba(0,0,0,0.5);
 }
 
-.content-primary.about img {
+.about .content-primary img {
 	margin: 51% 0 0 17%;
 	border-radius: 10%;
 	box-shadow: 10px 10px grey;
@@ -244,9 +244,12 @@ input {
 }
 
 .gmap {
-	height: 200px;
-	width: 300px;
-	background-color: red;
+	width: 500px;
+	height: 350px;
+	/*margin-left: 10%;
+	margin-top: 10%;
+	background-color: red;*/
+	/*border-radius: 10%;*/
 }
 
 /************************************************
@@ -262,12 +265,12 @@ input {
 	margin-top: 1%;
 }
 
-.gallery-secondary.about {
+.about .gallery-secondary {
 	background: none;
 	background-color: rgba(0,0,0,0.5);
 }
 
-.gallery-secondary-section {
+/*.gallery-secondary-section {
     position: relative;
     padding-bottom: 51.25%;
     padding-top: 12%;
@@ -279,7 +282,7 @@ input {
     z-index: 1;
     border-radius: 10%;
     margin-right: 2%;
-}
+}*/
 
 .gallery-secondary-section iframe {
 	position: absolute;
@@ -289,22 +292,22 @@ input {
 	height: 100%;
 }
 
-.gallery-secondary-section.about {
+.about .gallery-secondary-section {
 	margin: 50% 0 0 14%;
 }
 
-.gallery-secondary-section.about h1:nth-child(1) {
+.about .gallery-secondary-section h1:nth-child(1) {
 	margin: 8% 0 0 2%;
 	-webkit-text-stroke: 3px white;
 }
 
-.gallery-secondary-section.about h1:nth-child(2) {
+.about .gallery-secondary-section h1:nth-child(2) {
 	margin: -15% 0 0 29%;
 	background-color: rgba(0,0,0,0.5);
 	padding-left: 12%;
 }
 
-.gallery-secondary-section.about span {
+.about .gallery-secondary-section span {
 	color: lime;
 }
 

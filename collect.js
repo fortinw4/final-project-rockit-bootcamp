@@ -1,7 +1,7 @@
 $(function(){
 
 	var usersPath = 'http://localhost:3000/users/'
-	var treePath = 'http://localhost:3000/treeImages/'
+	var treePath = 'http://localhost:3000/treeImages/' 
 	var imageDisplay = $('#template-tree').html()
 	var templateImage = Handlebars.compile(imageDisplay)
 
@@ -20,20 +20,20 @@ $(function(){
 					image: treeImage.image
 				})
 
-				var map = new GMaps({
-				  div: '.gmap',
-				  lat: -12.043333,
-				  lng: -77.028333
-				});
+				// var map = new GMaps({
+				//   div: '.gmap',
+				//   lat: 33.043333,
+				//   lng: -106.028333
+				// })
 
-				map.addMarker({
-				  lat: -12.043333,
-				  lng: -77.028333,
-				  title: 'Lima',
-				  click: function(e) {
-				    alert('You clicked in this marker');
-				  }
-				});
+				// map.addMarker({
+				//   lat: 33.043333,
+				//   lng: -70.028333,
+				//   title: 'Lima',
+				//   click: function(e) {
+				//     alert('You clicked in this marker');
+				//   }
+				// })
 
 
 				$('.gallery-primary-section').append(endResult)
