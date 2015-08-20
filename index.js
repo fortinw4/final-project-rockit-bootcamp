@@ -1,27 +1,24 @@
-'use strict';
-
 $(function(){
 
 	var usersPath = 'http://localhost:3000/users/'
 	var treePath = 'http://localhost:3000/treeImages/'
+	var uploadedImage;
 
-	var treeImageCache;
-
+	// Mimicking our file upload
 	$.get(treePath)
 		.done(function(treeImages){
-			treeImageCache = treeImages;
-			console.log(treeImageCache);
-		})
+			var randomImageId = _.random(0, treeImages.length - 1)
+			uploadedImage = treeImages[randomImageId];
+		});
+
 
 	$('form').submit(function(e){
 		e.preventDefault()
 
-		var treeIndex = _.random(0, array.length)
-
 		var values = {
-			id: _.random(1, 10),
-			treeImagePath: treeImageCache[treeIndex].path,
-			treeImageLat: treeImageCache[treeIndex].lat,
+			treeImagePath: uploadedImage.path,
+			treeImageLat: uploadedImage.lat,
+			treeImageLng: uploadedImage.lng,
 			firstName: $('.first-name').val(),
 			lastName: $('.last-name').val(),
 			email: $('.email').val(),
@@ -31,23 +28,9 @@ $(function(){
 			country: $('.region-select-primary').val()
 		}
 
-		var treeVal = {
-			id: _.random(1, 10),
-			image: 'images/tree-selfie-will1.jpg'
-		}
-
 		$.post(usersPath, values)
 			.done(function(){
-				if (values.treeId === treeVal.id) {
-					console.log(values.firstName)
-				} else {
-					console.log('matching error')
-				}
-				$('.output-area').append('<p>' + values.firstName + '</p>')
-				$.get(treePath, treeVal)
-					.done(function(){
-						$('.output-area').append('<img src=' + treeVal.image + '>')
-					})
+				location.href = 'collection.html'
 			})
 			.fail(function(){
 				console.log('form submission error!')
@@ -55,10 +38,3 @@ $(function(){
 
 	})
 })
-
-
-
-
-// read in all values from the form
-// put them inside object literal
-// console log object literal

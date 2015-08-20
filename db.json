@@ -1,100 +1,43 @@
 {
   "users": [
     {
-      "id": 4,
-      "treeId": 7,
+      "treeImagePath": "images/tree-selfie-tigermountain1a.jpg",
+      "treeImageLat": 34,
+      "treeImageLng": 108.7,
       "firstName": "William",
       "lastName": "Fortin",
       "email": "fortinw4@gmail.com",
       "city": "Lansing",
       "state": "MI",
       "zip": 48933,
-      "country": "United States"
+      "country": "United States",
+      "id": 1
     },
     {
-      "id": 8,
-      "treeId": 3,
+      "treeImagePath": "images/tree-selfie-redhead-sm.jpg",
+      "treeImageLat": 33.4,
+      "treeImageLng": 109.3,
       "firstName": "William",
       "lastName": "Fortin",
       "email": "fortinw4@gmail.com",
       "city": "Lansing",
       "state": "MI",
       "zip": 48933,
-      "country": "United States"
+      "country": "United States",
+      "id": 2
     },
     {
-      "id": 10,
-      "treeId": 10,
+      "treeImagePath": "images/tree-selfie-random2.jpg",
+      "treeImageLat": 33,
+      "treeImageLng": 109,
       "firstName": "William",
       "lastName": "Fortin",
       "email": "fortinw4@gmail.com",
       "city": "Lansing",
       "state": "MI",
       "zip": 48933,
-      "country": "United States"
-    },
-    {
-      "id": 2,
-      "treeId": 1,
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States"
-    },
-    {
-      "id": 3,
-      "treeId": 4,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States"
-    },
-    {
-      "id": 5,
-      "treeId": 4,
-      "firstName": "William G Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States"
-    },
-    {
-      "id": 7,
-      "treeId": 2,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States"
-    },
-    {
-      "id": 9,
-      "treeId": 10,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States"
-    },
-    {
-      "id": 1,
-      "treeId": 5,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States"
+      "country": "United States",
+      "id": 3
     }
   ],
   "treeImages": [

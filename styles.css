@@ -126,7 +126,7 @@ body {
 .content-primary {
 	background-color: green;
 	width: 40%;
-	min-height: 1400px;
+	min-height: 1415px;
 	float: left;
 }
 
@@ -313,9 +313,42 @@ input {
 	background-color: rgba(0,0,0,0.5);
 }
 
-.collection {
-	background-image: url("images/greybark1.jpg");
-}
 .output-area {
 	margin: 30% 0 0 5%;
+}
+
+.collection-body {
+	background-image: url("images/earth-tree.jpg");
+}
+
+.columns-1 > div {
+	display: flex;
+	height: 300px;
+	padding: 20px;
+	margin: 15% 0 0 0;
+}
+
+.columns-1 .user-img {
+	flex: 1;
+	background-image: url("images/tree-selfie-random2.jpg");
+	display: inline-block;
+}
+
+.columns-1 .user-info {
+	flex: 1;
+	background-color: rgba(0,0,0,0.7);
+	display: inline-block;
+	margin-left: 2%;
+}
+
+.columns-1 .user-info ul {
+	margin: 20% 0 0 15%;
+}
+
+.columns-1 .user-map {
+	flex: 1;
+	background-color: blue;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
 }
