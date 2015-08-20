@@ -22,58 +22,10 @@
 
 		</header>
 
-		<div class="collection-primary">
-			
-			<div class="user-content">
-				
-				<div class="user-img">
-					<img src="images/tree-selfie-random2.jpg" alt="Moon Valley Park">
-				</div>
-				<div class="user-info">
-					
-					<ul>
-						<li>name: Susan Mirabelle</li>
-						<li>city: Phoenix, Arizona</li>
-						<li>country: United States</li>
-					</ul>
+		<h1>check out our member list below!</h1>
 
-				</div>
-				<div class="user-map">
-					
-					
-				</div>
-
-
-			</div>
-
-
-
-
-			<div class="user-content">
-				
-				<div class="user-img">
-					<img src="images/tree-selfie-redhead-sm.jpg" alt="Stavanger, Norway">
-				</div>
-				<div class="user-info">
-					
-					<ul>
-						<li>name: Miranda Stevens</li>
-						<li>city: Stavanger</li>
-						<li>country: Norway</li>
-					</ul>
-
-				</div>
-				<div class="user-map">
-					
-					
-				</div>
-
-
-
-				
-
-			</div>
-			
+		<div class="user-list">
+			<!-- user content templates -->
 		</div>
 
 
@@ -81,24 +33,23 @@
 	</div>
 
 	<script id="template-user-content" type="text/x-handlebars-template">
-		
-		<div class="user-img">
-			<img src="{{image}}" alt="Moon Valley Park">
-		</div>
-		<div class="user-info">
-			
-			<ul>
-				<li>name: {{name}}</li>
-				<li>city: {{city}}, {{state}}</li>
-				<li>country: {{country}}</li>
-			</ul>
+		<div class="user-content user-{{id}}">
+			<div class="user-img">
+				<img src="{{treeImagePath}}" alt="Moon Valley Park">
+			</div>
+			<div class="user-info">
+				
+				<ul>
+					<li>name: {{firstName}} {{lastName}}</li>
+					<li>city: {{city}}, {{state}}</li>
+					<li>country: {{country}}</li>
+				</ul>
 
+			</div>
+			<div class="user-map">
+				<img src="https://maps.googleapis.com/maps/api/staticmap?center=Moon+Valley+Park,Phoenix,AZ&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:C%7C40.718217,-73.998284">
+			</div>
 		</div>
-		<div class="user-map">
-			
-			
-		</div>
-
 	</script>
 
 	<script id="template-tree" type="text/x-handlebars-template">

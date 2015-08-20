@@ -321,7 +321,7 @@ input {
 	background-image: url("images/earth-tree.jpg");
 }
 
-.collection-primary {
+.user-list {
 	margin-top: 100px;
 }
 
@@ -335,23 +335,39 @@ input {
 
 .columns-1 .user-img {
 	flex: 1;
-	display: inline-block;
 }
 
+.columns-1 .user-img img {
+	border-radius: 15px;
+}
 .columns-1 .user-info {
 	flex: 1;
-	border: .2em solid white;
-	display: inline-block;
-	margin-left: 20px;
 }
 
 .columns-1 .user-info ul {
-	margin: 20px 0 0 50px;
+	margin: 70px 0 0 50px;
 }
 
 .columns-1 .user-map {
-	flex: 1;
+	width: 500px;
 	display: inline-block;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+
+.columns-1 .user-map img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.columns-1 h1 {
+	margin-left: 280px;
+	margin-top: 60px;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.7);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 15px;
 }
