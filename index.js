@@ -32,7 +32,7 @@ $(function(){
 
 		$.post(usersPath, values)
 			.done(function(){
-				location.href = 'collection.html'
+				location.href = 'members.html'
 			})
 			.fail(function(){
 				console.log('form submission error!')
