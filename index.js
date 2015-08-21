@@ -14,7 +14,7 @@ $(function(){
 		});
 
 
-	$('form').submit(function(e){
+	$('.get-involved-form').submit(function(e){
 		e.preventDefault()
 
 		var values = {

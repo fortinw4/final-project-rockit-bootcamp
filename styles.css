@@ -46,12 +46,13 @@ body {
 .tagline {
 	position: fixed;
 	backface-visibility: hidden;
-	margin-left: 48.5%;
-	margin-top: 13.5%;
+	margin-left: 650px;
+	margin-top: 150px;
 }
 
 .tagline h1 {
 	background-color: rgba(0,0,0,0.5);
+	
 }
 
 .tagline span {
@@ -193,7 +194,7 @@ body {
 }
 
 input {
-	margin-left: 5%;
+	margin-left: 0;
 }
 
 .form-row {
@@ -283,10 +284,6 @@ input {
 	background-color: rgba(0,0,0,0.5);
 }
 
-.output-area {
-	margin: 30% 0 0 5%;
-}
-
 .members-body {
 	background-image: url("images/earth-tree.jpg");
 }
@@ -342,4 +339,14 @@ input {
 	padding-right: 10px;
 	padding-left: 10px;
 	border-radius: 15px;
+}
+
+@media screen and (min-width: 1400px) {
+	.tagline {
+		margin-left: 858px;
+	}
+
+	input {
+	margin-left: 52px;
+	}
 }
