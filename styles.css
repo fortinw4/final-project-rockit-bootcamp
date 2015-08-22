@@ -27,6 +27,10 @@ body {
 	overflow: hidden;
 }
 
+form {
+	margin-top: 272px;
+}
+
 /************************************************
 	Welcome Section
 ************************************************/
@@ -69,13 +73,7 @@ body {
 	min-height: 1400px;
 	width: 60%;
 	float: left;
-	margin-top: 1%;
-}
-
-@media screen and (min-width: 1400px) {
-	.gallery-primary {
-		background-image: url("images/tree-bw.png");
-	}
+	margin-top: 16px;
 }
 
 .columns-3 .gallery-primary {
@@ -98,8 +96,8 @@ body {
 }
 
 .about .gallery-primary-section1 h1 {
-	margin: -33% 0 0 85%;
-	-webkit-text-stroke: 3px white;
+	margin: -142px 0 0 385px;
+    -webkit-text-stroke: 3px white;
 }
 
 .contact .gallery-primary {
@@ -108,7 +106,6 @@ body {
 	width: 60%;
 	float: left;
 	background-size: contain;
-	margin-top: 0%;
 }
 
 /************************************************
@@ -135,19 +132,9 @@ body {
 	background-image: url("images/greybark1.jpg");
 }
 
-.columns-3 .content-primary h2 {
-    width: 122%;
-    margin: 1% 0 0 -45%;
-    background-color: rgba(0,0,0,0.5);
-    position: absolute;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    text-align: center;
-}
-
 .numbercircle {
-	margin-left: 40%;
-	margin-top: 19%;
+	margin-left: 64px;
+	margin-top: 84px;
 }
 
 .numbercircle p {
@@ -158,39 +145,20 @@ body {
 .number {
 	border: 1px solid #fff;
 	border-radius: 50%;
-	margin-left: 5%;
+	margin-left: 23px;
 	padding: 5px 13px 5px 13px;
 }
 
-.statement {
-	margin-left: 25%;
-	margin-right: 10%;
-	margin-top: 20%;
-}
-
-.content-primary > form {
-	margin-top: 35%;
-	background-color: rgba(0,0,0,0.5);
-	border: 1px solid grey;
-	border-radius: 10%;
-	margin-left: 3%;
-	margin-right: 5%;
-	padding-bottom: 5px;
+p.statement {
+	margin-left: 91px;
+    margin-right: 74px;
+    margin-top: 80px;
 }
 
 .about .content-primary img {
-	margin: 51% 0 0 17%;
+	margin: 230px 0 0 72px;
 	border-radius: 10%;
 	box-shadow: 10px 10px grey;
-}
-
-.members {
-	background-color: rgba(0,0,0,0.5);
-	margin-top: 40%;
-}
-
-.members ul {
-	margin-bottom: 60%;
 }
 
 input {
@@ -199,8 +167,8 @@ input {
 
 .form-row {
 	font-size: 18px;
-	width: 84%;
-	margin: 5% 5% 5% 25%;
+    width: 446px;
+    margin: 5px 5px 30px 138px;
 }
 
 .form-row > div:nth-child(1) {
@@ -209,8 +177,7 @@ input {
 }
 
 .form-row > div:nth-child(2) {
-	margin-left: 35%;
-	width: 20%;
+	margin-left: 157px;
 }
 
 .first-name, .last-name, .email, .zip, .city {
@@ -220,44 +187,17 @@ input {
 .region-select-secondary, .region-select-primary {
 	color: #000;
 	width: 61%;
-	margin-right: 15%;
 }
 
-.get-involved-form {
-	margin-top: 50%;
-}
-
-.submit {
+.submit, .warning {
 	color: #000;
-	width: 30%;
-	margin-left: 20%;
-}
-
-.contact form {
-	margin-top: 55%;
-}
-
-.gmap {
-	width: 500px;
-	height: 350px;
-	/*margin-left: 10%;
-	margin-top: 10%;
-	background-color: red;*/
-	/*border-radius: 10%;*/
+	margin-right: 41px;
+	margin-left: 90px;
 }
 
 /************************************************
 	Third Panel
 ************************************************/
-
-.index .gallery-secondary {
-	/*background-color: green;*/
-	background-image: url("images/greybark1.jpg");
-	min-height: 1400px;
-	float: left;
-	width: 34%;
-	margin-top: 1%;
-}
 
 .about .gallery-secondary-section {
 	margin: 314px 0 0 50px;
@@ -305,8 +245,11 @@ input {
 }
 
 .columns-1 .user-img img {
+	width: 410px;
+	height: 260px;
 	border-radius: 15px;
 }
+
 .columns-1 .user-info {
 	flex: 1;
 }
@@ -316,17 +259,17 @@ input {
 }
 
 .columns-1 .user-map {
-	width: 500px;
+	width: 450px;
 	display: inline-block;
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 70px;
 }
 
 .columns-1 .user-map img {
-	width: 400px;
+	width: 450px;
 	height: 265px;
 	border-radius: 15px;
-	margin-left: 100px;
+	margin-left: 75px;
 }
 
 .columns-1 h1 {
@@ -334,19 +277,34 @@ input {
 	margin-top: 60px;
 	display: inline-block;
 	background-color: rgba(0,0,0,0.7);
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding: 10px 10px 10px 10px;
 	border-radius: 15px;
 }
 
 @media screen and (min-width: 1400px) {
+
 	.tagline {
 		margin-left: 858px;
 	}
 
 	input {
-	margin-left: 52px;
+		margin-left: 52px;
+	}
+
+	.gallery-primary {
+		background-image: url("images/tree-bw.png");
+	}
+
+	.columns-1 h1 {
+		margin-left: 453px;
+	}
+
+	.form-row {
+		margin: 5px 5px 30px 208px;
+	}
+
+	.region-select-secondary, .region-select-primary {
+		width: 255px;
+		margin-left: 69px;
 	}
 }

@@ -94,3 +94,66 @@
     border-radius: 10%;
     margin-right: 2%;
 }*/
+
+
+.columns-3 .content-primary h2 {
+    width: 122%;
+    margin: 10px 0 0 -45%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+/*.members {
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 40%;
+}
+
+.members ul {
+	margin-bottom: 60%;
+}
+*/
+
+.gmap {
+	width: 500px;
+	height: 350px;
+	/*margin-left: 10%;
+	margin-top: 10%;
+	background-color: red;*/
+	/*border-radius: 10%;*/
+}
+
+/*.content-primary > form {
+	margin-top: 35%;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid grey;
+	border-radius: 10%;
+	margin-left: 3%;
+	margin-right: 5%;
+	padding-bottom: 5px;
+}*/
+
+.index .gallery-secondary {
+	/*background-color: green;*/
+	background-image: url("images/greybark1.jpg");
+	min-height: 1400px;
+	float: left;
+	width: 34%;
+	margin-top: 1%;
+}
+
+
+OLD HB:
+
+// <div class="user-name">{{{image}}}</div>
+
+
+<!-- <script id="template-tree" type="text/x-handlebars-template">
+		
+		<div class="tree-area" data-id="{{id}}">
+			<img src="{{image}}">
+		</div>
+
+	</script> -->
