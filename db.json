@@ -166,14 +166,14 @@
     {
       "id": 1,
       "paraType": "treePara",
-      "p1": "1. Dig a hole 3 to 4 times wider than the container of the tree.<br>",
-      "p2": "2. Carefully remove the tree from the container keeping the soil around the roots intact.",
-      "p3": "3. Don't yank the tree out of the container as this can separate the roots from the tree."
+      "para1": "1. Dig a hole 3 to 4 times wider than the container of the tree.",
+      "para2": "2. Carefully remove the tree from the container keeping the soil around the roots intact.",
+      "para3": "3. Don't yank the tree out of the container as this can separate the roots from the tree."
     },
     {
       "id": 2,
       "paraType": "selfiePara",
-      "pa": "1. Take out your camera or cell phone."
+      "paraa": "1. Take out your camera or cell phone."
     }
   ]
 }
