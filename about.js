@@ -27,7 +27,7 @@ $(function(){
 					$('.how-to-selfie').on('click', function(e){
 						e.preventDefault()
 						resultSelfie = templateParaSelfie(para)
-						$('.para1').remove()
+						$('.para1').hide()
 						$('.para2').append(resultSelfie)
 					})
 					

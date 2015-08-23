@@ -116,6 +116,32 @@
       "zip": "",
       "country": "United States",
       "id": 9
+    },
+    {
+      "treeImagePath": "images/tree-selfie-random2.jpg",
+      "treeImageLat": 33,
+      "treeImageLng": -109,
+      "firstName": "William",
+      "lastName": "Fortin",
+      "email": "fortinw4@gmail.com",
+      "city": "Lansing",
+      "state": "MI",
+      "zip": 48933,
+      "country": "United States",
+      "id": 10
+    },
+    {
+      "treeImagePath": "images/tree-battle-creek-mi.jpg",
+      "treeImageLat": 42.3122,
+      "treeImageLng": 85.2042,
+      "firstName": "William",
+      "lastName": "Fortin",
+      "email": "fortinw4@gmail.com",
+      "city": "Lansing",
+      "state": "MI",
+      "zip": 48933,
+      "country": "United States",
+      "id": 11
     }
   ],
   "treeImages": [
@@ -185,7 +211,7 @@
       "paraType": "selfiePara",
       "h2b": "How To Take a Selfie:",
       "paraa": "1. Take out your camera or cell phone.",
-      "parab": "2. Face the lense or front facing camera towards your face.",
+      "parab": "2. Position the lense or front facing camera towards your face.",
       "parac": "3. Snap the photo!"
     }
   ]
