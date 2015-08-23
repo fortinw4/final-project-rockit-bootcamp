@@ -24,3 +24,12 @@ $(function(){
 				$('.gallery-primary-section').replace(endResult)
 			})
 		})
+
+
+
+
+
+
+
+
+		

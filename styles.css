@@ -88,7 +88,7 @@ form {
 	background-image: url("images/tree-bw.png");
 }
 
-.about .gallery-primary-section1 img {
+.about .how-to-tree img {
 	width: 50%;
     margin: 210px 0 0 50px;
     box-shadow: 10px 10px grey;
@@ -155,7 +155,7 @@ p.statement {
     margin-top: 80px;
 }
 
-.about .content-primary img {
+.about .content-primary-section1 img {
 	margin: 230px 0 0 72px;
 	border-radius: 10%;
 	box-shadow: 10px 10px grey;
@@ -224,6 +224,15 @@ input {
 	background-color: rgba(0,0,0,0.5);
 }
 
+.about .para1, .para2 {
+	margin: 120px 0 0 30px;
+	background: rgba(0,0,0,0.5);
+}
+
+
+
+
+
 .members-body {
 	background-image: url("images/earth-tree.jpg");
 }
@@ -273,7 +282,7 @@ input {
 }
 
 .columns-1 h1 {
-	margin-left: 280px;
+	margin-left: 306px;
 	margin-top: 60px;
 	display: inline-block;
 	background-color: rgba(0,0,0,0.7);
@@ -296,7 +305,7 @@ input {
 	}
 
 	.columns-1 h1 {
-		margin-left: 453px;
+		margin-left: 557px;
 	}
 
 	.form-row {
@@ -306,5 +315,17 @@ input {
 	.region-select-secondary, .region-select-primary {
 		width: 255px;
 		margin-left: 69px;
+	}
+
+	.about .content-primary-section1 img {
+		margin: 282px 0 0 72px;
+	}
+
+	.about .gallery-primary-section1 h1 {
+    	margin: -177px 0 0 517px;
+	}
+	
+	.about .gallery-secondary-section h1:nth-child(1) {
+		margin: 36px 0 0 39px;
 	}
 }

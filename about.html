@@ -5,6 +5,7 @@
 	<title>treeselfie - about</title>
 	<link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
 	<link rel="stylesheet" href="styles.css">
+	
 </head>
 <body class="about-body">
 	
@@ -28,19 +29,36 @@
 			
 			<div class="gallery-primary-section1">
 				
-				<img src="images/tree1a.jpg" alt="tree">
+				<a href="#" class="how-to-tree"><img src="images/tree1a.jpg" class="tree1a" alt="tree"></a>	
 
 				<h1>+</h1>
-			
+
 			</div>
+
+			
 
 		</div>
 
 		<div class="content-primary">
 
-			<img src="images/selfie1a.jpg" alt="selfie">
+			<div class="content-primary-section1">
+				
+				<a href="#" class="how-to-selfie"><img src="images/selfie1a.jpg" class="selfie1a" alt="selfie"></a>
+				
+			</div>
 			
+			
+			<div class="output-about">
+			
+				<p class="para1"></p>
+				<p class="para2"></p>
+
+			</div>
+
+
+
 		</div>
+
 
 		<div class="gallery-secondary">
 
@@ -54,6 +72,27 @@
 
 		</div>
 
+		
+
 	</div>
+	<script id="template-how-to" type="text/x-handlebars-template">
+
+		<div class="how-to-tree">
+			<p>{{para}}</p>
+		</div>
+
+		<div class="how-to-selfie">
+			<p>{{para}}</p>
+		</div>
+
+	</script>
+	
+	<script src="bower_components/handlebars/handlebars.js"></script>
+	<script src="bower_components/lodash/lodash.js"></script>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="about.js"></script>
+
+
+	
 </body>
 </html>

@@ -9,7 +9,7 @@ $(function(){
 			users.forEach(function(user){
 				var result = templateUser(user)
 				$('.user-list').append(result)
-
+				console.log('test')
 			})
 		})
 
