@@ -14,24 +14,24 @@ $(function(){
 	var resultSelfie
 
 
-		$.get(paraPath)
-			.done(function(paras){
-				paras.forEach(function(para){
+	$.get(paraPath)
+		.done(function(paras){
+			paras.forEach(function(para){
 
-					$('.how-to-tree').on('click', function(e){
-						e.preventDefault()
-						resultTree = templateParaTree(para)
-						$('.para1').append(resultTree)
-					})	
+				$('.how-to-tree').on('click', function(e){
+					e.preventDefault()
+					resultTree = templateParaTree(para)
+					$('.para1').append(resultTree)
+				})	
 
-					$('.how-to-selfie').on('click', function(e){
-						e.preventDefault()
-						resultSelfie = templateParaSelfie(para)
-						$('.para1').hide()
-						$('.para2').append(resultSelfie)
-					})
-					
-			})
+				$('.how-to-selfie').on('click', function(e){
+					e.preventDefault()
+					resultSelfie = templateParaSelfie(para)
+					$('.para1').hide()
+					$('.para2').append(resultSelfie)
+				})
+				
+		})
 	})
 })
 
