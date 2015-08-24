@@ -64,72 +64,21 @@ form {
 }
 
 /************************************************
-	Vertical Hero Panel
+	index.html
 ************************************************/
 
-.gallery-primary {
-	/*background-color: brown;*/
+.index {
+	display: flex;
+	min-height: 1400px;
+}
+
+.index .gallery-primary {
 	background-image: url("images/greybark1.jpg");
-	min-height: 1400px;
-	width: 60%;
-	float: left;
-	margin-top: 16px;
-}
-
-.columns-3 .gallery-primary {
-	width: 33%;
-}
-
-.about .gallery-primary {
-	background: none;
-}
-
-.get-involved .gallery-primary {
-	background-image: url("images/tree-bw.png");
-}
-
-.about .how-to-tree img {
-	width: 50%;
-    margin: 210px 0 0 50px;
-    box-shadow: 10px 10px #555;
-    border-radius: 10%;
-}
-
-.about .how-to-tree img:hover {
-	box-shadow: 0 0 10px 10px #444;
-}
-
-.about .gallery-primary-section1 h1 {
-	margin: -142px 0 0 385px;
-    -webkit-text-stroke: 3px white;
-    background-color: rgba(0,0,0,0.7);
-    padding: 0 16px 0 16px;
-}
-
-.contact .gallery-primary {
-	background-image: url("images/work-done-sq.jpg");
-	min-height: 1400px;
-	width: 60%;
-	float: left;
-	background-size: contain;
-}
-
-/************************************************
-	Content Panel
-************************************************/
-
-.content-primary {
-	width: 40%;
-	min-height: 1415px;
-	float: left;
-	background-color: green;
+	flex: 1.8;
 }
 
 .index .content-primary {
-	
-	width: 40%;
-	min-height: 1415px;
-	float: left;
+	flex: 1.2;
 	background-color: green;
     -webkit-animation-name: change
     -webkit-animation-duration: 15s; 
@@ -155,51 +104,197 @@ form {
     100% {background-color: green;}
 }
 
-.columns-3 .content-primary {
-	width: 33%;
-	background-image: url("images/greybark1.jpg");
-}
-
-.columns-3.about .content-primary {
-	background: none;
-}
-
-.get-involved {
-	background-image: url("images/greybark1.jpg");
-}
-
-.numbercircle {
+.index .content-primary .numbercircle {
 	margin-left: 64px;
 	margin-top: 84px;
 }
 
-.numbercircle p {
+.index .content-primary .numbercircle p {
 	display: inline;
 	margin: 10px;
 }
 
-.number {
+.index .content-primary .numbercircle .number {
 	border: 1px solid #fff;
 	border-radius: 50%;
 	margin-left: 23px;
 	padding: 5px 13px 5px 13px;
 }
 
-p.statement {
+.index .content-primary p.statement {
 	margin-left: 91px;
     margin-right: 74px;
     margin-top: 80px;
 }
 
-.about .content-primary-section1 img {
-	margin: 230px 0 0 72px;
-	border-radius: 10%;
-	box-shadow: 10px 10px #555;
+/************************************************
+	about.html
+************************************************/
+
+.about-body {
+	background-image: url("images/earth-tree.jpg");
+	background-color: rgba(0,0,0,0.5);
 }
 
-.about .content-primary-section1 img:hover {
+.about .tree1a {
+    margin: 210px 0 0 50px;
+    box-shadow: 10px 10px #555;
+    border-radius: 10%;
+}
+
+.about .tree1a:hover {
 	box-shadow: 0 0 10px 10px #444;
 }
+
+.about .plus {
+    margin: -131px 0 0 377px;
+    -webkit-text-stroke: 3px white;
+    /* display: inline; */
+    /* background-color: rgba(0,0,0,0.7); */
+    /* padding: 0 10px 0 10px; */
+}
+
+.about .selfie1a {
+	margin: -131px 0 0 510px;
+    border-radius: 10%;
+    box-shadow: 10px 10px #555;
+}
+
+.about .selfie1a:hover {
+	box-shadow: 0 0 10px 10px #444;
+}
+
+.about .equal {
+	margin: -135px 0 0 933px;
+    -webkit-text-stroke: 3px white;
+    /* background-color: rgba(0,0,0,0.7); */
+    /* padding: 0 16px 0 16px; */
+    /* display: inline; */
+}
+
+.about .logo {
+	margin: -55px 0 0 1098px;
+    background-color: rgba(0,0,0,0.5); 
+    padding-left: 27px; 
+}
+
+.about .logo span {
+	color: lime;
+}
+
+.output-about .para1, .para2 {
+	margin: 120px 0 0 30px;
+	background: rgba(0,0,0,0.7);
+}
+
+.output-about {
+	margin: 0 332px 0 298px;
+}
+
+
+/*************************************************
+	members.html
+*************************************************/
+
+.members-body {
+	background-image: url("images/earth-tree.jpg");
+}
+
+.members .user-list {
+	margin-top: 100px;
+}
+
+.members .user-content {
+	display: flex;
+	height: 300px;
+	padding: 20px;
+	margin: 30px 0 0 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.members .user-img {
+	flex: 1;
+}
+
+.members .user-img img {
+	width: 410px;
+	height: 260px;
+	border-radius: 15px;
+}
+
+.members .user-info {
+	flex: 1;
+}
+
+.members .user-info ul {
+	margin: 70px 0 0 80px;
+}
+
+.members .user-map {
+	width: 450px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 70px;
+}
+
+.members .user-map img {
+	width: 450px;
+	height: 265px;
+	border-radius: 15px;
+	margin-left: 75px;
+}
+
+.members h1 {
+	margin-left: 306px;
+	margin-top: 60px;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.7);
+	padding: 10px 10px 10px 10px;
+	border-radius: 15px;
+}
+
+/************************************************
+	get-involved.html
+************************************************/
+
+.get-involved {
+	display: flex;
+	min-height: 1400px;
+}
+
+.get-involved .content-primary {
+	flex: 1.2;
+	background-color: green;
+}
+
+.get-involved .gallery-primary {
+	flex: 1.8;
+	background-image: url("images/tree-bw.png");
+}
+
+/************************************************
+	contact.html
+************************************************/
+
+.contact {
+	display: flex;
+	min-height: 1400px;
+}
+
+.contact .gallery-primary {
+	flex: 1.8;
+	background-image: url("images/work-done-sq.jpg");
+	background-size: contain;
+}
+
+.contact .content-primary {
+	flex: 1.2;
+	background-color: green;
+}
+
+/************************************************
+Forms
+************************************************/
 
 input {
 	margin-left: 0;
@@ -244,96 +339,15 @@ input {
 }
 
 /************************************************
-	Third Panel
+	media queries
 ************************************************/
 
-.about .gallery-secondary-section {
-	margin: 314px 0 0 50px;
-}
+@media screen and (max-width: 360px) {
 
-.about .gallery-secondary-section h1:nth-child(1) {
-	margin: -70px 0 0 39px;
-	-webkit-text-stroke: 3px white;
-	display: inline-block;
-	background-color: rgba(0,0,0,0.7);
-	padding: 0 10px 0 10px;
-}
+	.tagline {
+		margin-left: 392px;
+	}
 
-.about .gallery-secondary-section h1:nth-child(2) {
-	margin: -49px 0 0 84px;
-	display: inline-block;
-	background-color: rgba(0,0,0,0.5);
-}
-
-.about .gallery-secondary-section span {
-	color: lime;
-}
-
-.about-body {
-	background-image: url("images/earth-tree.jpg");
-	background-color: rgba(0,0,0,0.5);
-}
-
-.output-about .para1, .para2 {
-	margin: 120px 0 0 30px;
-	background: rgba(0,0,0,0.7);
-}
-
-.members-body {
-	background-image: url("images/earth-tree.jpg");
-}
-
-.user-list {
-	margin-top: 100px;
-}
-
-.columns-1 .user-content {
-	display: flex;
-	height: 300px;
-	padding: 20px;
-	margin: 30px 0 0 0;
-	background-color: rgba(0,0,0,0.7);
-}
-
-.columns-1 .user-img {
-	flex: 1;
-}
-
-.columns-1 .user-img img {
-	width: 410px;
-	height: 260px;
-	border-radius: 15px;
-}
-
-.columns-1 .user-info {
-	flex: 1;
-}
-
-.columns-1 .user-info ul {
-	margin: 70px 0 0 80px;
-}
-
-.columns-1 .user-map {
-	width: 450px;
-	display: inline-block;
-	margin-left: 20px;
-	margin-right: 70px;
-}
-
-.columns-1 .user-map img {
-	width: 450px;
-	height: 265px;
-	border-radius: 15px;
-	margin-left: 75px;
-}
-
-.columns-1 h1 {
-	margin-left: 306px;
-	margin-top: 60px;
-	display: inline-block;
-	background-color: rgba(0,0,0,0.7);
-	padding: 10px 10px 10px 10px;
-	border-radius: 15px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -344,10 +358,6 @@ input {
 
 	input {
 		margin-left: 52px;
-	}
-
-	.gallery-primary {
-		background-image: url("images/tree-bw.png");
 	}
 
 	.columns-1 h1 {
@@ -362,17 +372,34 @@ input {
 		width: 255px;
 		margin-left: 69px;
 	}
-
-	.about .content-primary-section1 img {
-		margin: 282px 0 0 117px;
-	}
-
-	.about .gallery-primary-section1 h1 {
-    	margin: -177px 0 0 517px;
-    	padding: 0 1px 0 40px;
-	}
 	
-	.about .gallery-secondary-section h1:nth-child(1) {
-		margin: 36px 0 0 39px;
+	.about .plus {
+	    margin: -131px 0 0 500px;
+	    -webkit-text-stroke: 3px white;
+	    /* display: inline; */
+	    /* background-color: rgba(0,0,0,0.7); */
+	    /* padding: 0 10px 0 10px; */
 	}
+
+	.about .selfie1a {
+	    margin: -131px 0 0 771px;
+	    border-radius: 10%;
+	    box-shadow: 10px 10px #555;
+	}
+
+	.about .equal {
+		margin: -135px 0 0 1303px;
+	    -webkit-text-stroke: 3px white;
+	    /* background-color: rgba(0,0,0,0.7); */
+	    /* padding: 0 16px 0 16px; */
+	    /* display: inline; */
+	}
+
+	.about .logo {
+	    margin: -55px 0 0 1575px;
+	    background-color: rgba(0,0,0,0.5);
+	    padding-left: 79px;
+	}
+
+
 }
