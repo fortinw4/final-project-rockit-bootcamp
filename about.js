@@ -1,5 +1,4 @@
 
-
 $(function(){
 
 	var paraPath = 'http://localhost:3000/howToParas/'
@@ -10,79 +9,21 @@ $(function(){
 	var paraSelfieDisplay = $('#template-para-selfie').html()
 	var templateParaSelfie = Handlebars.compile(paraSelfieDisplay)
 
-	var resultTree
-	var resultSelfie
-
-
 	$.get(paraPath)
 		.done(function(paras){
-			paras.forEach(function(para){
+			
+			var resultTree = templateParaTree(paras[0])
+			var resultSelfie = templateParaSelfie(paras[1])
 
-				$('.how-to-tree').on('click', function(e){
-					e.preventDefault()
-					resultTree = templateParaTree(para)
-					$('.para1').append(resultTree)
-				})	
+			$('.how-to-tree').on('click', function(e){
+				e.preventDefault()
+				$('.para1').html(resultTree)
+			})	
 
-				$('.how-to-selfie').on('click', function(e){
-					e.preventDefault()
-					resultSelfie = templateParaSelfie(para)
-					$('.para1').hide()
-					$('.para2').append(resultSelfie)
-				})
-				
-		})
+			$('.how-to-selfie').on('click', function(e){
+				e.preventDefault()
+				$('.para1').html(resultSelfie)
+			})
+			$('.para1').html(resultTree)
 	})
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $(function(){
-
-// 	var paraPath = 'http://localhost:3000/howToParas/'
-// 	var paraDisplay = $('#template-para-tree').html()
-// 	var templatePara = Handlebars.compile(paraDisplay)
-	
-
-// 	$('.how-to-tree').on('click', function(e){
-// 		e.preventDefault()
-
-
-// 		$.get(paraPath)
-// 			.done(function(paras){
-// 				paras.forEach(function(para){
-// 					var result = templatePara(para)
-// 					console.log(para.para1)
-
-// 					$('.para1').append(result)
-// 					// $('.para2').append(result)
-
-// 				})	
-// 			})
-		
-// 	})
-// })
-
-
-
-// $('.how-to-selfie').on('click', function(e){
-// 	e.preventDefault()
-// 	$('.para1').remove()
-// 	$('.para2').append(para.paraa)
-// })
-
-
-

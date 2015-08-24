@@ -193,7 +193,6 @@ form {
 	margin: 0 332px 0 298px;
 }
 
-
 /*************************************************
 	members.html
 *************************************************/
@@ -376,7 +375,7 @@ input {
 	}
 	
 	.about .plus {
-	    margin: -131px 0 0 500px;
+	    margin: -131px 0 0 453px;
 	    
 	    /* display: inline; */
 	    /* background-color: rgba(0,0,0,0.7); */
@@ -384,13 +383,13 @@ input {
 	}
 
 	.about .selfie1a {
-	    margin: -131px 0 0 771px;
+	    margin: -131px 0 0 676px;
 	    border-radius: 10%;
 	    box-shadow: 10px 10px #555;
 	}
 
 	.about .equal {
-		margin: -135px 0 0 1303px;
+		margin: -135px 0 0 1160px;
 	    
 	    /* background-color: rgba(0,0,0,0.7); */
 	    /* padding: 0 16px 0 16px; */
@@ -407,4 +406,41 @@ input {
 }
 
 
+
+/*****************************************
+about-new
+*****************************************/
+
+.about-new {
+	display: flex;
+	height: 1400px;
+}
+
+.about-new .content-third {
+	background-color: blue;
+	flex: 1;
+}
+
+.about-new .content-secondary {
+	background-color: green;
+	flex: 1;
+}
+
+.about-new .content-main {
+	background-color: black;
+	flex: 1;
+}
+
+.about-new .content-twice {
+	background-color: red;
+	flex: 1;
+}
+
+.about-new .content-thrice {
+	background-color: orange;
+	flex: 1;
+}
+
 /*add class of on*/
+
+/*change to html*/
