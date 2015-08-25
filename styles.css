@@ -79,7 +79,7 @@ form {
 
 .index .content-primary {
 	flex: 1.2;
-	background-color: green;
+	background-color: #008000;
     -webkit-animation-name: change
     -webkit-animation-duration: 15s; 
     animation-name: change;
@@ -131,66 +131,99 @@ form {
 	about.html
 ************************************************/
 
-.about-body {
+.about-new-body {
 	background-image: url("images/earth-tree.jpg");
-	background-color: rgba(0,0,0,0.5);
 }
 
-.about .tree1a {
-    margin: 210px 0 0 50px;
-    box-shadow: 10px 10px #555;
+.about-new {
+	display: flex;
+	height: 300px;
+}
+
+.about-new .content-third {	
+	flex: 1;
+}
+
+.about-new .content-third .tree1a {
+	margin: 150px 0 0 40px;
+	box-shadow: 10px 10px #555;
     border-radius: 10%;
 }
 
-.about .tree1a:hover {
+.about-new .tree1a:hover {
 	box-shadow: 0 0 10px 10px #444;
 }
 
-.about .plus {
-    margin: -131px 0 0 377px;
-    font-weight: 800;
-    -webkit-text-stroke: 3px black;
-    /* display: inline; */
-    /* background-color: rgba(0,0,0,0.7); */
-    /* padding: 0 10px 0 10px; */
+.about-new .content-secondary {
+	flex: 1;
 }
 
-.about .selfie1a {
-	margin: -131px 0 0 510px;
+.about-new .content-secondary .plus {
+	margin: 220px 0 0 105px;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.7);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about-new .content-main {
+	flex: 1;
+}
+
+.about-new .content-main .selfie1a {
+	margin: 150px 0 0 0;
+	box-shadow: 10px 10px #555;
     border-radius: 10%;
-    box-shadow: 10px 10px #555;
 }
 
-.about .selfie1a:hover {
+.about-new .selfie1a:hover {
 	box-shadow: 0 0 10px 10px #444;
 }
 
-.about .equal {
-	margin: -135px 0 0 933px;
-    font-weight: 800;
-    -webkit-text-stroke: 3px black;
-    /* background-color: rgba(0,0,0,0.7); */
-    /* padding: 0 16px 0 16px; */
-    /* display: inline; */
+.about-new .content-twice {
+	flex: 1;
 }
 
-.about .logo {
-	margin: -55px 0 0 1098px;
-    background-color: rgba(0,0,0,0.5); 
-    padding-left: 27px; 
+.about-new .content-twice .equal {
+	margin: 220px 0 0 105px;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.7);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.about .logo span {
+.about-new .content-thrice {
+	flex: 1;
+}
+
+.about-new .content-thrice .logo {
+	margin: 220px 0 0 0;
+}
+
+.about-new .content-thrice .logo span {
 	color: lime;
 }
 
+.col3 {
+	display: flex;
+	height: 1100px;
+}
+
+.col3 .divider1 {
+	flex: .75;
+}
+
+.col3 .output-about {
+	flex: 1.5;
+}
+
 .output-about .para1, .para2 {
-	margin: 120px 0 0 30px;
+	margin: 120px 0 0 0;
 	background: rgba(0,0,0,0.7);
 }
 
-.output-about {
-	margin: 0 332px 0 298px;
+.col3 .divider2 {
+	flex: .75;
 }
 
 /*************************************************
@@ -374,72 +407,12 @@ input {
 		margin-left: 69px;
 	}
 	
-	.about .plus {
-	    margin: -131px 0 0 453px;
-	    
-	    /* display: inline; */
-	    /* background-color: rgba(0,0,0,0.7); */
-	    /* padding: 0 10px 0 10px; */
-	}
-
-	.about .selfie1a {
-	    margin: -131px 0 0 676px;
-	    border-radius: 10%;
-	    box-shadow: 10px 10px #555;
-	}
-
-	.about .equal {
-		margin: -135px 0 0 1160px;
-	    
-	    /* background-color: rgba(0,0,0,0.7); */
-	    /* padding: 0 16px 0 16px; */
-	    /* display: inline; */
-	}
-
-	.about .logo {
-	    margin: -55px 0 0 1375px;
-	    background-color: rgba(0,0,0,0.5);
-	    padding-left: 79px;
-	}
-
-
 }
 
 
 
-/*****************************************
-about-new
-*****************************************/
 
-.about-new {
-	display: flex;
-	height: 1400px;
-}
 
-.about-new .content-third {
-	background-color: blue;
-	flex: 1;
-}
-
-.about-new .content-secondary {
-	background-color: green;
-	flex: 1;
-}
-
-.about-new .content-main {
-	background-color: black;
-	flex: 1;
-}
-
-.about-new .content-twice {
-	background-color: red;
-	flex: 1;
-}
-
-.about-new .content-thrice {
-	background-color: orange;
-	flex: 1;
-}
 
 /*add class of on*/
 

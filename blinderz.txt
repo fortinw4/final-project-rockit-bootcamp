@@ -145,6 +145,160 @@
 }
 
 
+
+
+.about-body {
+	background-image: url("images/earth-tree.jpg");
+	background-color: rgba(0,0,0,0.5);
+}
+
+.about .tree1a {
+    margin: 210px 0 0 50px;
+    box-shadow: 10px 10px #555;
+    border-radius: 10%;
+}
+
+.about .tree1a:hover {
+	box-shadow: 0 0 10px 10px #444;
+}
+
+.about .plus {
+    margin: -131px 0 0 377px;
+    font-weight: 800;
+    -webkit-text-stroke: 3px black;
+    /* display: inline; */
+    /* background-color: rgba(0,0,0,0.7); */
+    /* padding: 0 10px 0 10px; */
+}
+
+.about .selfie1a {
+	margin: -131px 0 0 510px;
+    border-radius: 10%;
+    box-shadow: 10px 10px #555;
+}
+
+.about .selfie1a:hover {
+	box-shadow: 0 0 10px 10px #444;
+}
+
+.about .equal {
+	margin: -135px 0 0 933px;
+    font-weight: 800;
+    -webkit-text-stroke: 3px black;
+    /* background-color: rgba(0,0,0,0.7); */
+    /* padding: 0 16px 0 16px; */
+    /* display: inline; */
+}
+
+.about .logo {
+	margin: -55px 0 0 1098px;
+    background-color: rgba(0,0,0,0.5); 
+    padding-left: 27px; 
+}
+
+.about .logo span {
+	color: lime;
+}
+
+.output-about .para1, .para2 {
+	margin: 120px 0 0 30px;
+	background: rgba(0,0,0,0.7);
+}
+
+.output-about {
+	margin: 0 332px 0 298px;
+}
+
+
+
+
+
+.about .plus {
+	    margin: -131px 0 0 453px;
+	    
+	    /* display: inline; */
+	    /* background-color: rgba(0,0,0,0.7); */
+	    /* padding: 0 10px 0 10px; */
+	}
+
+	.about .selfie1a {
+	    margin: -131px 0 0 676px;
+	    border-radius: 10%;
+	    box-shadow: 10px 10px #555;
+	}
+
+	.about .equal {
+		margin: -135px 0 0 1160px;
+	    
+	    /* background-color: rgba(0,0,0,0.7); */
+	    /* padding: 0 16px 0 16px; */
+	    /* display: inline; */
+	}
+
+	.about .logo {
+	    margin: -55px 0 0 1375px;
+	    background-color: rgba(0,0,0,0.5);
+	    padding-left: 79px;
+	}
+
+
+
+/*****************************************
+about-new
+*****************************************/
+
+/* IB  */
+
+
+/*.about-new {
+	display: inline-block;
+}
+
+.about-new .content-third {
+	background-color: blue;
+	display: inline-block;
+	height: 200px;
+	width: 400px;
+
+}
+
+.tree-1a {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.about-new .content-secondary {
+	background-color: green;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+
+.about-new .content-main {
+	background-color: black;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+
+.about-new .content-twice {
+	background-color: red;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+
+.about-new .content-thrice {
+	background-color: orange;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}*/
+
+
+
+
+
 OLD HB:
 
 // <div class="user-name">{{{image}}}</div>
