@@ -88,20 +88,20 @@ form {
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes change {
-    5%   {background-color: lime;}
-    25%  {background-color: teal;}
-    50%  {background-color: navy;}
-    75%  {background-color: aqua;}
-    100% {background-color: green;}
+    5%   {background-color: #008068;}
+    25%  {background-color: #007280;}
+    50%  {background-color: #003E80;}
+    75%  {background-color: #008072;}
+    100% {background-color: #5A8000;}
 }
 
 /* Standard syntax */
 @keyframes change {
-    5%   {background-color: lime;}
-    25%  {background-color: teal;}
-    50%  {background-color: navy;}
-    75%  {background-color: aqua;}
-    100% {background-color: green;}
+    5%   {background-color: #008068;}
+    25%  {background-color: #007280;}
+    50%  {background-color: #003E80;}
+    75%  {background-color: #008072;}
+    100% {background-color: #5A8000;}
 }
 
 .index .content-primary .numbercircle {
@@ -198,6 +198,8 @@ form {
 
 .about-new .content-thrice .logo {
 	margin: 220px 0 0 0;
+	background-color: rgba(0,0,0,0.5);
+    padding-left: 69px;
 }
 
 .about-new .content-thrice .logo span {
@@ -220,6 +222,7 @@ form {
 .output-about .para1, .para2 {
 	margin: 120px 0 0 0;
 	background: rgba(0,0,0,0.7);
+	padding: 20px;
 }
 
 .col3 .divider2 {
