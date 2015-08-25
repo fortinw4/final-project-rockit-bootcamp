@@ -17,13 +17,13 @@ $(function(){
 
 			$('.how-to-tree').on('click', function(e){
 				e.preventDefault()
-				$('.para1').html(resultTree)
+				$('.output-about').html(resultTree)
 			})	
 
 			$('.how-to-selfie').on('click', function(e){
 				e.preventDefault()
-				$('.para1').html(resultSelfie)
+				$('.output-about').html(resultSelfie)
 			})
-			$('.para1').html(resultTree)
+			$('.output-about').html(resultTree)
 	})
 })

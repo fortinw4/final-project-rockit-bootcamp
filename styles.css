@@ -125,6 +125,7 @@ form {
 	margin-left: 91px;
     margin-right: 74px;
     margin-top: 80px;
+    line-height: 170%;
 }
 
 /************************************************
@@ -208,7 +209,7 @@ form {
 
 .col3 {
 	display: flex;
-	height: 1100px;
+	min-height: 300px;
 }
 
 .col3 .divider1 {
@@ -219,12 +220,15 @@ form {
 	flex: 1.5;
 }
 
-.output-about .para1, .para2 {
+.output-about {
 	margin: 120px 0 0 0;
 	background: rgba(0,0,0,0.7);
 	padding: 20px;
 }
 
+.about-target {
+	padding: 20px;
+}
 .col3 .divider2 {
 	flex: .75;
 }
@@ -282,11 +286,10 @@ form {
 }
 
 .members h1 {
-	margin-left: 306px;
-	margin-top: 60px;
-	display: inline-block;
+	margin: auto;
+	text-align: center;
 	background-color: rgba(0,0,0,0.7);
-	padding: 10px 10px 10px 10px;
+	padding: 96px 10px 10px 10px;
 	border-radius: 15px;
 }
 
@@ -395,10 +398,6 @@ input {
 
 	input {
 		margin-left: 52px;
-	}
-
-	.columns-1 h1 {
-		margin-left: 557px;
 	}
 
 	.form-row {
