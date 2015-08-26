@@ -73,13 +73,13 @@ form {
 }
 
 .index .gallery-primary {
-	background-image: url("images/greybark1.jpg");
+	background-image: url("images/greybark1.jpg"), -webkit-linear-gradient(top, #6cab26, #6ceb86);
 	flex: 1.8;
 }
 
 .index .content-primary {
 	flex: 1.2;
-	background-color: #008000;
+	background-color: #249b24;
     -webkit-animation-name: change
     -webkit-animation-duration: 15s; 
     animation-name: change;
@@ -221,7 +221,7 @@ form {
 }
 
 .output-about {
-	margin: 120px 0 0 0;
+	margin: 120px 0 50px 0;
 	background: rgba(0,0,0,0.7);
 	padding: 20px;
 }
@@ -273,7 +273,7 @@ form {
 
 .members .user-map {
 	width: 450px;
-	display: inline-block;
+	flex: 1;
 	margin-left: 20px;
 	margin-right: 70px;
 }
@@ -290,7 +290,6 @@ form {
 	text-align: center;
 	background-color: rgba(0,0,0,0.7);
 	padding: 96px 10px 10px 10px;
-	border-radius: 15px;
 }
 
 /************************************************
@@ -304,7 +303,7 @@ form {
 
 .get-involved .content-primary {
 	flex: 1.2;
-	background-color: green;
+	background-color: #249b24;
 }
 
 .get-involved .gallery-primary {
@@ -329,7 +328,7 @@ form {
 
 .contact .content-primary {
 	flex: 1.2;
-	background-color: green;
+	background-color: #37a737;
 }
 
 /************************************************
@@ -338,6 +337,7 @@ Forms
 
 input {
 	margin-left: 0;
+	color: #000;
 }
 
 .form-row {
@@ -353,10 +353,6 @@ input {
 
 .form-row > div:nth-child(2) {
 	margin-left: 157px;
-}
-
-.first-name, .last-name, .email, .zip, .city, .captcha1, .captcha2 {
-	color: #000;
 }
 
 .captcha1 {
@@ -410,16 +406,3 @@ input {
 	}
 	
 }
-
-
-
-
-
-
-/*add class of on*/
-
-/*change to html*/
-
-
-/*commit, checkout (master), merge/*
-
