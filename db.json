@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "treeImagePath": "images/tree-battle-creek-mi.jpg",
-      "treeImageLat": 42.3122,
-      "treeImageLng": 85.2042,
+      "treeImagePath": "images/tree-selfie-random2.jpg",
+      "treeImageLat": 33.6264291,
+      "treeImageLng": -112.0807062,
       "firstName": "William",
       "lastName": "Fortin",
       "email": "fortinw4@gmail.com",
@@ -14,230 +14,74 @@
       "id": 1
     },
     {
-      "treeImagePath": "images/tree-battle-creek-mi.jpg",
-      "treeImageLat": 42.3122,
-      "treeImageLng": 85.2042,
-      "firstName": "Duane",
-      "lastName": "Winkel",
-      "email": "dwinkel@email.com",
-      "city": "Kansas City",
-      "state": "MO",
-      "zip": 64118,
+      "treeImagePath": "images/tree-selfie-redhead-sm.jpg",
+      "treeImageLat": 33.4389346,
+      "treeImageLng": -111.8451412,
+      "firstName": "Richard",
+      "lastName": "Adkins",
+      "email": "bill_fontaine@hotmail.com",
+      "city": "Mesa",
+      "state": "AZ",
+      "zip": 85033,
       "country": "United States",
       "id": 2
     },
     {
-      "treeImagePath": "images/tree-battle-creek-mi.jpg",
-      "treeImageLat": 42.3122,
-      "treeImageLng": 85.2042,
-      "firstName": "Jenna",
-      "lastName": "Connelly",
-      "email": "test@email.com",
-      "city": "Phoenix",
+      "treeImagePath": "images/ray-klinginsmith.jpg",
+      "treeImageLat": 33.493454,
+      "treeImageLng": -111.956743,
+      "firstName": "Sally",
+      "lastName": "Johnson",
+      "email": "sallyjohnson@treemail.com",
+      "city": "Tempe",
       "state": "AZ",
-      "zip": 85032,
+      "zip": 85036,
       "country": "United States",
       "id": 3
-    },
-    {
-      "treeImagePath": "images/ray-klinginsmith.jpg",
-      "treeImageLat": -42,
-      "treeImageLng": 174,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States",
-      "id": 4
-    },
-    {
-      "treeImagePath": "images/tree-selfie-random2.jpg",
-      "treeImageLat": 33,
-      "treeImageLng": -109,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States",
-      "id": 5
-    },
-    {
-      "treeImagePath": "images/tree-battle-creek-mi.jpg",
-      "treeImageLat": 42.3122,
-      "treeImageLng": 85.2042,
-      "firstName": "William",
-      "lastName": "asdfsdf",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States",
-      "id": 6
-    },
-    {
-      "treeImagePath": "images/tree-selfie-random2.jpg",
-      "treeImageLat": 33,
-      "treeImageLng": -109,
-      "firstName": "asdf",
-      "lastName": "q4tw45",
-      "email": "asd@",
-      "city": "asdf",
-      "state": "IA",
-      "zip": "",
-      "country": "United States",
-      "id": 7
-    },
-    {
-      "treeImagePath": "images/ray-klinginsmith.jpg",
-      "treeImageLat": -42,
-      "treeImageLng": 174,
-      "firstName": "sally",
-      "lastName": "mae",
-      "email": "aasdft@yahooo.com",
-      "city": "asdfasdf",
-      "state": "N/A",
-      "zip": "",
-      "country": "United States",
-      "id": 8
-    },
-    {
-      "treeImagePath": "images/tree-selfie-redhead-sm.jpg",
-      "treeImageLat": 33.4,
-      "treeImageLng": 109.3,
-      "firstName": "sally",
-      "lastName": "mae",
-      "email": "aasdft@yahooo.com",
-      "city": "dryvds",
-      "state": "N/A",
-      "zip": "",
-      "country": "United States",
-      "id": 9
-    },
-    {
-      "treeImagePath": "images/tree-selfie-random2.jpg",
-      "treeImageLat": 33,
-      "treeImageLng": -109,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States",
-      "id": 10
-    },
-    {
-      "treeImagePath": "images/tree-battle-creek-mi.jpg",
-      "treeImageLat": 42.3122,
-      "treeImageLng": 85.2042,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States",
-      "id": 11
-    },
-    {
-      "treeImagePath": "images/tree-selfie-redhead-sm.jpg",
-      "treeImageLat": 33.4,
-      "treeImageLng": 109.3,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States",
-      "id": 12
-    },
-    {
-      "treeImagePath": "images/tree-selfie-random2.jpg",
-      "treeImageLat": 33,
-      "treeImageLng": -109,
-      "firstName": "adam",
-      "lastName": "smith",
-      "email": "adam@hotmail.com",
-      "city": "Phoenix",
-      "state": "AZ",
-      "zip": 85029,
-      "country": "United States",
-      "id": 13
-    },
-    {
-      "treeImagePath": "images/tree-selfie-redhead-sm.jpg",
-      "treeImageLat": 33.4,
-      "treeImageLng": 109.3,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States",
-      "id": 14
-    },
-    {
-      "treeImagePath": "images/tree-fishers-in.jpg",
-      "treeImageLat": 39.9561,
-      "treeImageLng": 86.0128,
-      "firstName": "Bill",
-      "lastName": "Fontaine",
-      "email": "bill_fontaine@hotmail.com",
-      "city": "Mesa",
-      "state": "MO",
-      "zip": 85433,
-      "country": "United States",
-      "id": 15
     }
   ],
   "treeImages": [
     {
       "id": 1,
       "path": "images/tree-selfie-random2.jpg",
-      "lat": 33,
-      "lng": -109
+      "lat": 33.6264291,
+      "lng": -112.0807062
     },
     {
       "id": 2,
       "path": "images/tree-selfie-redhead-sm.jpg",
-      "lat": 33.4,
-      "lng": 109.3
+      "lat": 33.4389346,
+      "lng": -111.8451412
     },
     {
       "id": 3,
       "path": "images/tree-selfie-tigermountain1a.jpg",
-      "lat": 34,
-      "lng": 108.7
+      "lat": 33.406483,
+      "lng": -112.042081
     },
     {
       "id": 4,
       "path": "images/ray-klinginsmith.jpg",
-      "lat": -42,
-      "lng": 174
+      "lat": 33.493454,
+      "lng": -111.956743
     },
     {
       "id": 5,
       "path": "images/tree-planting2.jpg",
-      "lat": 46,
-      "lng": 84
+      "lat": 42.7164241,
+      "lng": -84.5813689
     },
     {
       "id": 6,
       "path": "images/tree-fishers-in.jpg",
-      "lat": 39.9561,
-      "lng": 86.0128
+      "lat": 39.9586111,
+      "lng": -86.0105556
     },
     {
       "id": 7,
       "path": "images/tree-battle-creek-mi.jpg",
-      "lat": 42.3122,
-      "lng": 85.2042
+      "lat": 42.3339296,
+      "lng": -85.2074938
     }
   ],
   "howToParas": [

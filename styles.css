@@ -31,6 +31,42 @@ form {
 	margin-top: 205px;
 }
 
+.content-primary {
+	flex: 1.2;
+	background-color: #249b24;
+    -webkit-animation-name: change
+    animation-name: change;
+    -webkit-animation: change 15s linear infinite alternate;
+    -moz-animation: change 15s linear infinite alternate;
+    -ms-animation: change 15s linear infinite alternate;
+    -o-animation: change 15s linear infinite alternate;
+    animation: change 15s linear infinite alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes change {
+	1% 	 {background-color: #249B24;}
+    15%  {background-color: #008068;}
+    25%  {background-color: #007280;}
+    50%  {background-color: #003E80;}
+    75%  {background-color: #5A8F6E;}
+    80%  {background-color: #008072;}
+    90%  {background-color: #37A737;}
+    100% {background-color: #5A8000;}
+}
+
+/* Standard syntax */
+@keyframes change {
+	1% 	 {background-color: #249B24;}
+    15%  {background-color: #008068;}
+    25%  {background-color: #007280;}
+    50%  {background-color: #003E80;}
+    75%  {background-color: #5A8F6E;}
+    80%  {background-color: #008072;}
+    90%  {background-color: #37A737;}
+    100% {background-color: #5A8000;}
+}
+
 /************************************************
 	Welcome Section
 ************************************************/
@@ -77,39 +113,12 @@ form {
 
 .index {
 	display: flex;
-	min-height: 1400px;
+	min-height: 1100px;
 }
 
 .index .gallery-primary {
 	background-image: url("images/greybark1.jpg"), -webkit-linear-gradient(top, #6cab26, #6ceb86);
 	flex: 1.8;
-}
-
-.index .content-primary {
-	flex: 1.2;
-	background-color: #249b24;
-    -webkit-animation-name: change
-    -webkit-animation-duration: 15s; 
-    animation-name: change;
-    animation-duration: 15s;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes change {
-    5%   {background-color: #008068;}
-    25%  {background-color: #007280;}
-    50%  {background-color: #003E80;}
-    75%  {background-color: #008072;}
-    100% {background-color: #5A8000;}
-}
-
-/* Standard syntax */
-@keyframes change {
-    5%   {background-color: #008068;}
-    25%  {background-color: #007280;}
-    50%  {background-color: #003E80;}
-    75%  {background-color: #008072;}
-    100% {background-color: #5A8000;}
 }
 
 .index .content-primary .numbercircle {
@@ -134,6 +143,7 @@ form {
     margin-right: 74px;
     margin-top: 80px;
     line-height: 170%;
+    text-align: justify;
 }
 
 /************************************************
@@ -146,7 +156,7 @@ form {
 
 .about-new {
 	display: flex;
-	height: 300px;
+	min-height: 300px;
 }
 
 .about-new .content-third {	
@@ -296,7 +306,7 @@ form {
 
 .get-involved {
 	display: flex;
-	min-height: 1400px;
+	min-height: 1100px;
 }
 
 .get-involved .content-primary {
@@ -315,13 +325,13 @@ form {
 
 .contact {
 	display: flex;
-	min-height: 1400px;
+	min-height: 1100px;
 }
 
 .contact .gallery-primary {
 	flex: 1.8;
 	background-image: url("images/work-done-sq.jpg");
-	background-size: contain;
+	background-size: cover;
 }
 
 .contact .content-primary {
@@ -333,7 +343,7 @@ form {
 Forms
 ************************************************/
 
-input {
+input, textarea {
 	margin-left: 0;
 	color: #000;
 }
@@ -351,6 +361,10 @@ input {
 
 .form-row > div:nth-child(2) {
 	margin-left: 157px;
+}
+
+.comments {
+	margin-top: 20px;
 }
 
 .captcha1 {
