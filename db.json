@@ -168,6 +168,32 @@
       "zip": 85029,
       "country": "United States",
       "id": 13
+    },
+    {
+      "treeImagePath": "images/tree-selfie-redhead-sm.jpg",
+      "treeImageLat": 33.4,
+      "treeImageLng": 109.3,
+      "firstName": "William",
+      "lastName": "Fortin",
+      "email": "fortinw4@gmail.com",
+      "city": "Lansing",
+      "state": "MI",
+      "zip": 48933,
+      "country": "United States",
+      "id": 14
+    },
+    {
+      "treeImagePath": "images/tree-fishers-in.jpg",
+      "treeImageLat": 39.9561,
+      "treeImageLng": 86.0128,
+      "firstName": "Bill",
+      "lastName": "Fontaine",
+      "email": "bill_fontaine@hotmail.com",
+      "city": "Mesa",
+      "state": "MO",
+      "zip": 85433,
+      "country": "United States",
+      "id": 15
     }
   ],
   "treeImages": [

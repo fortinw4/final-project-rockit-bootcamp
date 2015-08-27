@@ -28,7 +28,7 @@ body {
 }
 
 form {
-	margin-top: 272px;
+	margin-top: 205px;
 }
 
 /************************************************
@@ -50,17 +50,25 @@ form {
 .tagline {
 	position: fixed;
 	backface-visibility: hidden;
-	margin-left: 650px;
+	margin-left: 531px;
 	margin-top: 150px;
 }
 
 .tagline h1 {
 	background-color: rgba(0,0,0,0.5);
-	
+	padding: 5px;
 }
 
 .tagline span {
 	color: lime;
+}
+
+.index .tagline {
+	margin-left: 606px;
+}
+
+.contact .tagline {
+	margin-left: 582px;
 }
 
 /************************************************
@@ -268,21 +276,11 @@ form {
 }
 
 .members .user-info ul {
-	margin: 70px 0 0 80px;
-}
-
-.members .user-map {
-	width: 450px;
-	flex: 1;
-	margin-left: 20px;
-	margin-right: 70px;
+	margin: 70px 0 0 50px;
 }
 
 .members .user-map img {
-	width: 450px;
-	height: 265px;
 	border-radius: 15px;
-	margin-left: 75px;
 }
 
 .members h1 {
@@ -389,7 +387,7 @@ input {
 @media screen and (min-width: 1400px) {
 
 	.tagline {
-		margin-left: 858px;
+		margin-left: 863px;
 	}
 
 	input {
