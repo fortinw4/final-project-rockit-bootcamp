@@ -1,57 +1,6 @@
 {
   "users": [
-    {
-      "treeImagePath": "images/tree-selfie-random2.jpg",
-      "treeImageLat": 33.6264291,
-      "treeImageLng": -112.0807062,
-      "firstName": "William",
-      "lastName": "Fortin",
-      "email": "fortinw4@gmail.com",
-      "city": "Lansing",
-      "state": "MI",
-      "zip": 48933,
-      "country": "United States",
-      "id": 1
-    },
-    {
-      "treeImagePath": "images/tree-selfie-redhead-sm.jpg",
-      "treeImageLat": 33.4389346,
-      "treeImageLng": -111.8451412,
-      "firstName": "Richard",
-      "lastName": "Adkins",
-      "email": "bill_fontaine@hotmail.com",
-      "city": "Mesa",
-      "state": "AZ",
-      "zip": 85033,
-      "country": "United States",
-      "id": 2
-    },
-    {
-      "treeImagePath": "images/ray-klinginsmith.jpg",
-      "treeImageLat": 33.493454,
-      "treeImageLng": -111.956743,
-      "firstName": "Sally",
-      "lastName": "Johnson",
-      "email": "sallyjohnson@treemail.com",
-      "city": "Tempe",
-      "state": "AZ",
-      "zip": 85036,
-      "country": "United States",
-      "id": 3
-    },
-    {
-      "treeImagePath": "images/tree-selfie-random2.jpg",
-      "treeImageLat": 33.6264291,
-      "treeImageLng": -112.0807062,
-      "firstName": "Sally",
-      "lastName": "Johnson",
-      "email": "sallyjohnson@treemail.com",
-      "city": "Tempe",
-      "state": "AZ",
-      "zip": 85036,
-      "country": "United States",
-      "id": 4
-    }
+   
   ],
   "treeImages": [
     {
