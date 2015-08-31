@@ -38,6 +38,19 @@
       "zip": 85036,
       "country": "United States",
       "id": 3
+    },
+    {
+      "treeImagePath": "images/tree-selfie-random2.jpg",
+      "treeImageLat": 33.6264291,
+      "treeImageLng": -112.0807062,
+      "firstName": "Sally",
+      "lastName": "Johnson",
+      "email": "sallyjohnson@treemail.com",
+      "city": "Tempe",
+      "state": "AZ",
+      "zip": 85036,
+      "country": "United States",
+      "id": 4
     }
   ],
   "treeImages": [
