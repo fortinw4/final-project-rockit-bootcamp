@@ -1,4 +1,3 @@
-// DONE!!!
 
 $(function(){
 
