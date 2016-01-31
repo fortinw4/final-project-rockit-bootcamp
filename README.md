@@ -1,4 +1,4 @@
-# final-project-rockit-bootcamp
+treeselfie
 
 Users can upload an image of a selfie they took with a tree they just planted in order to inspire others to do the same. 
 
