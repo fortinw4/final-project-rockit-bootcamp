@@ -1,6 +1,31 @@
 {
   "users": [
-   
+    {
+      "treeImagePath": "images/tree-battle-creek-mi.jpg",
+      "treeImageLat": 42.3339296,
+      "treeImageLng": -85.2074938,
+      "firstName": "William",
+      "lastName": "Fortin",
+      "email": "fortinw4@gmail.com",
+      "city": "Lansing",
+      "state": "MI",
+      "zip": 48933,
+      "country": "United States",
+      "id": 1
+    },
+    {
+      "treeImagePath": "images/tree-fishers-in.jpg",
+      "treeImageLat": 39.9586111,
+      "treeImageLng": -86.0105556,
+      "firstName": "Bill",
+      "lastName": "Fontaine",
+      "email": "bill_fontaine82@gmail.com",
+      "city": "Duluth",
+      "state": "MN",
+      "zip": 50691,
+      "country": "United States",
+      "id": 2
+    }
   ],
   "treeImages": [
     {
